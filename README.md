@@ -61,6 +61,13 @@ The three false alarms (`k → q` twice, `h → x` once) are listed by recording
 id. They are the honest cost of the current thresholds: the forced-choice test
 clears its margin on a word that was in fact read correctly.
 
+I quote the count, not a rate. At n = 40 the Wilson 95% interval for 3/40 runs
+**[2.6%, 19.9%]** — wide enough that reporting "7.5%" would claim precision the
+sample does not support. The thresholds themselves are hand-set and uncalibrated
+(`OSTONA` in the screening module); a sweep of the detection / false-alarm
+trade-off across threshold values is the next measurement, and re-calibration on
+real mispronounced speech is the one after that.
+
 | Other measurements | Result | Script |
 |---|---|---|
 | Negative control (untouched words) | **1047/1047 with Δ = 0.000000** | `eval_auc.py` |
