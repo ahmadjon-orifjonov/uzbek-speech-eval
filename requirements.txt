@@ -1,6 +1,13 @@
-torch>=2.0
-torchaudio>=2.0
-transformers>=4.30
-numpy>=1.24
-soundfile>=0.12
-datasets>=2.14
+# Pinned to the versions the published results were produced with (2026-09-11).
+# Every number in README.md and results/ was regenerated on this exact set.
+# Loosen at your own risk: torchaudio.forced_align and the wav2vec2 CTC head
+# are the two places where a version change can move the scores.
+
+torch==2.13.0
+torchaudio==2.11.0
+transformers==5.16.1
+huggingface_hub==1.29.0
+numpy==2.5.2
+soundfile==0.14.0
+librosa==1.0.0
+pyarrow==25.0.1
