@@ -1,0 +1,272 @@
+[
+ {
+  "id": "fleurs_00",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_00.wav",
+  "sr": 16000,
+  "davomiylik_s": 13.68,
+  "etalon_xom": "siz shuningdek oʻzingiznikidan boshqa hukumatlar maslahatini olishni xohlashingiz mumkin biroq ularning maslahati oʻzlarining fuqarolari uchun moʻljallangan",
+  "etalon_norm": "siz shuningdek o‘zingiznikidan boshqa hukumatlar maslahatini olishni xohlashingiz mumkin biroq ularning maslahati o‘zlarining fuqarolari uchun mo‘ljallangan"
+ },
+ {
+  "id": "fleurs_01",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_01.wav",
+  "sr": 16000,
+  "davomiylik_s": 6.6,
+  "etalon_xom": "internet oʻzida ommaviy hamda shaxslararo aloqa elementlarini mujassamlashtiradi",
+  "etalon_norm": "internet o‘zida ommaviy hamda shaxslararo aloqa elementlarini mujassamlashtiradi"
+ },
+ {
+  "id": "fleurs_02",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_02.wav",
+  "sr": 16000,
+  "davomiylik_s": 15.12,
+  "etalon_xom": "olimlar sayyoralar qanday qilib shakllanishini ayniqsa yer qanday shakllanganini tushunishga umid qiladilar chunki kometalar ancha avval yer bilan toʻqnashgan",
+  "etalon_norm": "olimlar sayyoralar qanday qilib shakllanishini ayniqsa yer qanday shakllanganini tushunishga umid qiladilar chunki kometalar ancha avval yer bilan to‘qnashgan"
+ },
+ {
+  "id": "fleurs_03",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_03.wav",
+  "sr": 16000,
+  "davomiylik_s": 8.64,
+  "etalon_xom": "masalan dunyodagi eng keng suratga olish formati 35 mm boʻlib bu analog fotoplyonkalar davri yakunida ustun boʻlgan fotoplyonka oʻlchami boʻlgan",
+  "etalon_norm": "masalan dunyodagi eng keng suratga olish formati mm bo‘lib bu analog fotoplyonkalar davri yakunida ustun bo‘lgan fotoplyonka o‘lchami bo‘lgan"
+ },
+ {
+  "id": "fleurs_04",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_04.wav",
+  "sr": 16000,
+  "davomiylik_s": 15.0,
+  "etalon_xom": "olimlar sayyoralar qanday qilib shakllanishini ayniqsa yer qanday shakllanganini tushunishga umid qiladilar chunki kometalar ancha avval yer bilan toʻqnashgan",
+  "etalon_norm": "olimlar sayyoralar qanday qilib shakllanishini ayniqsa yer qanday shakllanganini tushunishga umid qiladilar chunki kometalar ancha avval yer bilan to‘qnashgan"
+ },
+ {
+  "id": "fleurs_05",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_05.wav",
+  "sr": 16000,
+  "davomiylik_s": 11.4,
+  "etalon_xom": "aynan shu oyda boshqa bir samolyot uchish-qoʻnish yoʻlagidan chiqib ketib devorga urilgan va oʻn yetti kishi vafot etgandi",
+  "etalon_norm": "aynan shu oyda boshqa bir samolyot uchish qo‘nish yo‘lagidan chiqib ketib devorga urilgan va o‘n yetti kishi vafot etgandi"
+ },
+ {
+  "id": "fleurs_06",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_06.wav",
+  "sr": 16000,
+  "davomiylik_s": 14.16,
+  "etalon_xom": "1940-yilning 15-avgustida ittifoqchilar janubiy fransiyaga bostirib kirdi bu bosqin ajdar operatsiyasi deb atalgan",
+  "etalon_norm": "yilning avgustida ittifoqchilar janubiy fransiyaga bostirib kirdi bu bosqin ajdar operatsiyasi deb atalgan"
+ },
+ {
+  "id": "fleurs_07",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_07.wav",
+  "sr": 16000,
+  "davomiylik_s": 11.04,
+  "etalon_xom": "aqsh gimnastika va usoc bir maqsadga ega gimnastika va sport turini hamda boshqalarni atletlarning oʻz orzulariga xavfsiz ijobiy hamda vakolatli muhitda erishishlari uchun imkon qadar xavfsiz qilish",
+  "etalon_norm": "aqsh gimnastika va usoc bir maqsadga ega gimnastika va sport turini hamda boshqalarni atletlarning o‘z orzulariga xavfsiz ijobiy hamda vakolatli muhitda erishishlari uchun imkon qadar xavfsiz qilish"
+ },
+ {
+  "id": "fleurs_08",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_08.wav",
+  "sr": 16000,
+  "davomiylik_s": 9.3,
+  "etalon_xom": "qotishmalar asosan ikki yoki undan koʻp metallning qorishmasidir davriy jadvalda koʻp elementlar borligini esdan chiqarmang",
+  "etalon_norm": "qotishmalar asosan ikki yoki undan ko‘p metallning qorishmasidir davriy jadvalda ko‘p elementlar borligini esdan chiqarmang"
+ },
+ {
+  "id": "fleurs_09",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_09.wav",
+  "sr": 16000,
+  "davomiylik_s": 10.98,
+  "etalon_xom": "qoʻngʻiz atamasi etnomologlar tomonidan rasmiy maʼnoda mazkur hasharotlar guruhi uchun qoʻllaniladi",
+  "etalon_norm": "qo‘ng‘iz atamasi etnomologlar tomonidan rasmiy ma‘noda mazkur hasharotlar guruhi uchun qo‘llaniladi"
+ },
+ {
+  "id": "fleurs_10",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_10.wav",
+  "sr": 16000,
+  "davomiylik_s": 8.46,
+  "etalon_xom": "bolalar eʼtiborsizlikdan tortib zoʻravonlik va hatto tovlamachilikka qadar turli sabablarga koʻra homiylik parvarishiga topshiriladi",
+  "etalon_norm": "bolalar e‘tiborsizlikdan tortib zo‘ravonlik va hatto tovlamachilikka qadar turli sabablarga ko‘ra homiylik parvarishiga topshiriladi"
+ },
+ {
+  "id": "fleurs_11",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_11.wav",
+  "sr": 16000,
+  "davomiylik_s": 13.74,
+  "etalon_xom": "uning uzun jagʻlarida 70 dan ortiq tigʻ singari oʻtkir tishlar va qoʻshimcha ravishda ogʻzining yuqori qismida qoʻshimcha toʻplam joylashgan bu uning yoʻlidan chiqqan narsa uchun qochib ketish imkoniyati yoʻqligini anglatadi",
+  "etalon_norm": "uning uzun jag‘larida dan ortiq tig‘ singari o‘tkir tishlar va qo‘shimcha ravishda og‘zining yuqori qismida qo‘shimcha to‘plam joylashgan bu uning yo‘lidan chiqqan narsa uchun qochib ketish imkoniyati yo‘qligini anglatadi"
+ },
+ {
+  "id": "fleurs_12",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_12.wav",
+  "sr": 16000,
+  "davomiylik_s": 7.44,
+  "etalon_xom": "lekin bu toʻgʻri emas hujjat orqasida nimadir yozilgan boʻlishiga qaramay u xazinaning xaritasi emas",
+  "etalon_norm": "lekin bu to‘g‘ri emas hujjat orqasida nimadir yozilgan bo‘lishiga qaramay u xazinaning xaritasi emas"
+ },
+ {
+  "id": "fleurs_13",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_13.wav",
+  "sr": 16000,
+  "davomiylik_s": 18.06,
+  "etalon_xom": "u singapur bosh vazirining muovini vong kan seng tomonidan kutib olindi hamda singapur bosh vaziri li syan lun bilan savdo-sotiq va terrorizm masalalarini muhokama qildi",
+  "etalon_norm": "u singapur bosh vazirining muovini vong kan seng tomonidan kutib olindi hamda singapur bosh vaziri li syan lun bilan savdo sotiq va terrorizm masalalarini muhokama qildi"
+ },
+ {
+  "id": "fleurs_14",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_14.wav",
+  "sr": 16000,
+  "davomiylik_s": 8.88,
+  "etalon_xom": "yoʻlbars naʼrasi sherning toʻliq ovozli naʼrasiga oʻxshamaydi aksincha koʻproq irillab oʻkirib aytilgan soʻzlardan iborat jumlaga oʻxshaydi",
+  "etalon_norm": "yo‘lbars na‘rasi sherning to‘liq ovozli na‘rasiga o‘xshamaydi aksincha ko‘proq irillab o‘kirib aytilgan so‘zlardan iborat jumlaga o‘xshaydi"
+ },
+ {
+  "id": "fleurs_15",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_15.wav",
+  "sr": 16000,
+  "davomiylik_s": 17.04,
+  "etalon_xom": "mau harakati tomonidan tashkillashtirilgan mustaqillik uchun kurash vaqtida shahardagi tinch namoyish oliy yoʻlboshchi tupua tamasese lealofi iii ning oʻldirilishiga olib keldi",
+  "etalon_norm": "mau harakati tomonidan tashkillashtirilgan mustaqillik uchun kurash vaqtida shahardagi tinch namoyish oliy yo‘lboshchi tupua tamasese lealofi iii ning o‘ldirilishiga olib keldi"
+ },
+ {
+  "id": "fleurs_16",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_16.wav",
+  "sr": 16000,
+  "davomiylik_s": 8.04,
+  "etalon_xom": "segregatsiya va rekombinatsiya har bir avlod bilan ikkala pul oʻrtasidagi variatsiyalarni aralashtiradi",
+  "etalon_norm": "segregatsiya va rekombinatsiya har bir avlod bilan ikkala pul o‘rtasidagi variatsiyalarni aralashtiradi"
+ },
+ {
+  "id": "fleurs_17",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_17.wav",
+  "sr": 16000,
+  "davomiylik_s": 4.14,
+  "etalon_xom": "bu juftliklar farzandlari uchun asrab olish rejasini tanlashi mumkin",
+  "etalon_norm": "bu juftliklar farzandlari uchun asrab olish rejasini tanlashi mumkin"
+ },
+ {
+  "id": "fleurs_18",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_18.wav",
+  "sr": 16000,
+  "davomiylik_s": 9.54,
+  "etalon_xom": "boshqa tomondan muzli va qorli sharoitlar koʻpchilik mamlakatlarda oddiy holatdir va yoʻl harakati yil davomida deyarli uzluksiz davom etadi",
+  "etalon_norm": "boshqa tomondan muzli va qorli sharoitlar ko‘pchilik mamlakatlarda oddiy holatdir va yo‘l harakati yil davomida deyarli uzluksiz davom etadi"
+ },
+ {
+  "id": "fleurs_19",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_19.wav",
+  "sr": 16000,
+  "davomiylik_s": 9.78,
+  "etalon_xom": "hukmron partiya — janubi-g'arbiy afrika xalq tashkiloti jg'axt parlament saylovlarida ham aksariyat o'rinlarni saqlab qoldi",
+  "etalon_norm": "hukmron partiya janubi g‘arbiy afrika xalq tashkiloti jg‘axt parlament saylovlarida ham aksariyat o‘rinlarni saqlab qoldi"
+ },
+ {
+  "id": "fleurs_20",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_20.wav",
+  "sr": 16000,
+  "davomiylik_s": 13.08,
+  "etalon_xom": "faylasuf aristotel barcha narsa toʻrt unsurning bir yoki bir nechtasi aralashmasidan tashkil topgan degan nazariyani ilgari surgan ularni tuproq suv havo va olov ekanligini aytib oʻtgan",
+  "etalon_norm": "faylasuf aristotel barcha narsa to‘rt unsurning bir yoki bir nechtasi aralashmasidan tashkil topgan degan nazariyani ilgari surgan ularni tuproq suv havo va olov ekanligini aytib o‘tgan"
+ },
+ {
+  "id": "fleurs_21",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_21.wav",
+  "sr": 16000,
+  "davomiylik_s": 5.76,
+  "etalon_xom": "changʻi uchish marshrutini piyoda yurish marshruti sifatida tasavvur qiling",
+  "etalon_norm": "chang‘i uchish marshrutini piyoda yurish marshruti sifatida tasavvur qiling"
+ },
+ {
+  "id": "fleurs_22",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_22.wav",
+  "sr": 16000,
+  "davomiylik_s": 13.68,
+  "etalon_xom": "sherlar toʻdasi bittadan uchtagacha boʻlgan voyaga yetgan erkak sher oʻttizdan ortiq urgʻochisi sher va sher bolalaridan iborat boʻladi",
+  "etalon_norm": "sherlar to‘dasi bittadan uchtagacha bo‘lgan voyaga yetgan erkak sher o‘ttizdan ortiq urg‘ochisi sher va sher bolalaridan iborat bo‘ladi"
+ },
+ {
+  "id": "fleurs_23",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_23.wav",
+  "sr": 16000,
+  "davomiylik_s": 15.12,
+  "etalon_xom": "mintaqaviy va mavsumiy jiddiy ob-havo hodisalari kuchli qor yogʻishi qor boʻronlari muz boʻronlari hamda chang boʻronlarini oʻz ichiga oladi",
+  "etalon_norm": "mintaqaviy va mavsumiy jiddiy ob havo hodisalari kuchli qor yog‘ishi qor bo‘ronlari muz bo‘ronlari hamda chang bo‘ronlarini o‘z ichiga oladi"
+ },
+ {
+  "id": "fleurs_24",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_24.wav",
+  "sr": 16000,
+  "davomiylik_s": 7.2,
+  "etalon_xom": "1963-yili toʻgʻon qurilganidan keyin butun daryo boʻylab choʻkindilarni tarqatuvchi mavsumiy suv toshqinlar toʻxtadi",
+  "etalon_norm": "yili to‘g‘on qurilganidan keyin butun daryo bo‘ylab cho‘kindilarni tarqatuvchi mavsumiy suv toshqinlar to‘xtadi"
+ },
+ {
+  "id": "fleurs_25",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_25.wav",
+  "sr": 16000,
+  "davomiylik_s": 14.76,
+  "etalon_xom": "hoʻl liboslarni dazmollash ularning qurishiga yordam beradi koʻp mehmonxonalarda dazmol hamda dazmollash taxtasi ijaraga beriladi hattoki xonada ulardan bittasi yoʻq boʻlsa ham",
+  "etalon_norm": "ho‘l liboslarni dazmollash ularning qurishiga yordam beradi ko‘p mehmonxonalarda dazmol hamda dazmollash taxtasi ijaraga beriladi hattoki xonada ulardan bittasi yo‘q bo‘lsa ham"
+ },
+ {
+  "id": "fleurs_26",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_26.wav",
+  "sr": 16000,
+  "davomiylik_s": 6.84,
+  "etalon_xom": "rolando mendoza m16 avtomatida sayohatchilarni oʻqqa tutdi",
+  "etalon_norm": "rolando mendoza m avtomatida sayohatchilarni o‘qqa tutdi"
+ },
+ {
+  "id": "fleurs_27",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_27.wav",
+  "sr": 16000,
+  "davomiylik_s": 14.64,
+  "etalon_xom": "anʼanaviyroq cherkovlar tez-tez masihning qayta tirilishini nishonlashni buzish uchun yarim tunda jamoat bilan pasxaning dam olish kunlari davomida shanba oqshomida pasxa hushyorligini oʻtkazadilar",
+  "etalon_norm": "an‘anaviyroq cherkovlar tez tez masihning qayta tirilishini nishonlashni buzish uchun yarim tunda jamoat bilan pasxaning dam olish kunlari davomida shanba oqshomida pasxa hushyorligini o‘tkazadilar"
+ },
+ {
+  "id": "fleurs_28",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_28.wav",
+  "sr": 16000,
+  "davomiylik_s": 16.32,
+  "etalon_xom": "biroq sardor viketini yoʻqotganidan keyin hindiston uzatmalarni yakunlash uchun 7 ta viket yoʻqotishlar bilan faqatgina 36 ta ranni amalga oshirdi",
+  "etalon_norm": "biroq sardor viketini yo‘qotganidan keyin hindiston uzatmalarni yakunlash uchun ta viket yo‘qotishlar bilan faqatgina ta ranni amalga oshirdi"
+ },
+ {
+  "id": "fleurs_29",
+  "manba": "google/fleurs uz_uz test",
+  "fayl": "data/audio/fleurs_29.wav",
+  "sr": 16000,
+  "davomiylik_s": 12.06,
+  "etalon_xom": "janubiy afikaning tanlangan bogʻlariga yoki janubiy afrikaning barcha milliy bogʻlariga kirish imkoniyatini beruvchi wild cardʼni sotib olish foydali boʻlishi mumkin",
+  "etalon_norm": "janubiy afikaning tanlangan bog‘lariga yoki janubiy afrikaning barcha milliy bog‘lariga kirish imkoniyatini beruvchi wild card‘ni sotib olish foydali bo‘lishi mumkin"
+ }
+]

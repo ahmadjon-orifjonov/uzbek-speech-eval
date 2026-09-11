@@ -1,0 +1,53 @@
+{
+  "manba": "FLEURS uz_uz test, 30 namuna",
+  "sozlar_jami": 518,
+  "noyob_sozlar": 413,
+  "crash": 0,
+  "crash_rate_%": 0.0,
+  "noaniqlik_bor_%": 7.7,
+  "kop_variantli_%": 7.0,
+  "nomalum_grafemalar": {},
+  "uncertain_turlari": {
+    "j": 18,
+    "ng": 9,
+    "'c'": 2,
+    "tutuq belgisi": 4,
+    "'w'": 1
+  },
+  "fonema_chastotasi": {
+    "a": 465,
+    "i": 386,
+    "l": 192,
+    "r": 186,
+    "n": 178,
+    "t": 149,
+    "o": 145,
+    "d": 108,
+    "m": 90,
+    "s": 88,
+    "u": 87,
+    "j": 78,
+    "k": 74,
+    "ʃ": 71,
+    "e": 61,
+    "b": 61,
+    "q": 60,
+    "ɵ": 56,
+    "g": 53,
+    "v": 44,
+    "z": 36,
+    "ŋ": 32,
+    "tʃ": 30,
+    "h": 27,
+    "p": 20,
+    "f": 19,
+    "dʒ": 18,
+    "x": 15,
+    "ʁ": 12,
+    "ʔ": 6
+  },
+  "ishlatilmagan_fonemalar": [
+    "ʒ"
+  ],
+  "crash_royxati": []
+}

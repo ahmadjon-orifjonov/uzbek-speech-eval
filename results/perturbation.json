@@ -1,0 +1,5312 @@
+{
+ "tajriba": "Transkript perturbatsiyasiga sezgirlik testi (sanity check)",
+ "OGOHLANTIRISH": "Audio o'zgarmagan. Bu talaffuz xatosini aniqlash tajribasi EMAS.",
+ "model": "lucio/xls-r-uzbek-cv8",
+ "seed": 20260910,
+ "namunalar": 30,
+ "yozishlar": 157,
+ "vaqt_s": 172.8,
+ "umumiy": {
+  "mean_logpost": {
+   "n": 157,
+   "delta_ortacha": -0.584,
+   "delta_median": -0.4611,
+   "kutilgan_yonalishda_%": 78.3,
+   "NC_delta_ortacha": 0.0
+  },
+  "path_norm": {
+   "n": 157,
+   "delta_ortacha": -0.3724,
+   "delta_median": -0.3417,
+   "kutilgan_yonalishda_%": 94.3,
+   "NC_delta_ortacha": 0.0
+  },
+  "margin": {
+   "n": 157,
+   "delta_ortacha": -1.1374,
+   "delta_median": -0.9435,
+   "kutilgan_yonalishda_%": 88.5,
+   "NC_delta_ortacha": 0.0
+  },
+  "blank_ratio": {
+   "n": 157,
+   "delta_ortacha": 0.0319,
+   "delta_median": 0.0,
+   "kutilgan_yonalishda_%": 46.5,
+   "NC_delta_ortacha": 0.0
+  }
+ },
+ "tur_boyicha": {
+  "belgi_tushirish": {
+   "n": 30,
+   "mean_logpost": {
+    "delta_ortacha": -0.1272,
+    "delta_median": -0.0023,
+    "delta_std": 0.4528,
+    "kutilgan_yonalishda_%": 83.3,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   },
+   "path_norm": {
+    "delta_ortacha": -0.4588,
+    "delta_median": -0.4349,
+    "delta_std": 0.2638,
+    "kutilgan_yonalishda_%": 96.7,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   },
+   "margin": {
+    "delta_ortacha": -0.2855,
+    "delta_median": -0.0989,
+    "delta_std": 0.8041,
+    "kutilgan_yonalishda_%": 70.0,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   },
+   "blank_ratio": {
+    "delta_ortacha": 0.0509,
+    "delta_median": 0.0526,
+    "delta_std": 0.0334,
+    "kutilgan_yonalishda_%": 93.3,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   }
+  },
+  "g‘->g": {
+   "n": 9,
+   "mean_logpost": {
+    "delta_ortacha": 0.0381,
+    "delta_median": 0.0161,
+    "delta_std": 0.0909,
+    "kutilgan_yonalishda_%": 33.3,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   },
+   "path_norm": {
+    "delta_ortacha": -0.1514,
+    "delta_median": -0.1589,
+    "delta_std": 0.1424,
+    "kutilgan_yonalishda_%": 77.8,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   },
+   "margin": {
+    "delta_ortacha": -0.1221,
+    "delta_median": -0.0946,
+    "delta_std": 0.2941,
+    "kutilgan_yonalishda_%": 77.8,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   },
+   "blank_ratio": {
+    "delta_ortacha": 0.0705,
+    "delta_median": 0.0572,
+    "delta_std": 0.0468,
+    "kutilgan_yonalishda_%": 100.0,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   }
+  },
+  "h->x": {
+   "n": 30,
+   "mean_logpost": {
+    "delta_ortacha": -0.9398,
+    "delta_median": -0.8184,
+    "delta_std": 0.5388,
+    "kutilgan_yonalishda_%": 100.0,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   },
+   "path_norm": {
+    "delta_ortacha": -0.4428,
+    "delta_median": -0.3409,
+    "delta_std": 0.3683,
+    "kutilgan_yonalishda_%": 100.0,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   },
+   "margin": {
+    "delta_ortacha": -1.7425,
+    "delta_median": -1.5603,
+    "delta_std": 0.9779,
+    "kutilgan_yonalishda_%": 100.0,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   },
+   "blank_ratio": {
+    "delta_ortacha": 0.0106,
+    "delta_median": 0.0,
+    "delta_std": 0.0208,
+    "kutilgan_yonalishda_%": 30.0,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   }
+  },
+  "k->q": {
+   "n": 27,
+   "mean_logpost": {
+    "delta_ortacha": -1.0422,
+    "delta_median": -0.981,
+    "delta_std": 0.6225,
+    "kutilgan_yonalishda_%": 92.6,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   },
+   "path_norm": {
+    "delta_ortacha": -0.3992,
+    "delta_median": -0.4011,
+    "delta_std": 0.2913,
+    "kutilgan_yonalishda_%": 92.6,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   },
+   "margin": {
+    "delta_ortacha": -1.8261,
+    "delta_median": -1.7973,
+    "delta_std": 1.1254,
+    "kutilgan_yonalishda_%": 92.6,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   },
+   "blank_ratio": {
+    "delta_ortacha": 0.0023,
+    "delta_median": 0.0,
+    "delta_std": 0.0118,
+    "kutilgan_yonalishda_%": 3.7,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   }
+  },
+  "o‘->o": {
+   "n": 26,
+   "mean_logpost": {
+    "delta_ortacha": 0.0064,
+    "delta_median": 0.0024,
+    "delta_std": 0.0758,
+    "kutilgan_yonalishda_%": 23.1,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   },
+   "path_norm": {
+    "delta_ortacha": -0.2953,
+    "delta_median": -0.2595,
+    "delta_std": 0.3008,
+    "kutilgan_yonalishda_%": 88.5,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   },
+   "margin": {
+    "delta_ortacha": -0.3224,
+    "delta_median": -0.2878,
+    "delta_std": 0.3176,
+    "kutilgan_yonalishda_%": 84.6,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   },
+   "blank_ratio": {
+    "delta_ortacha": 0.0947,
+    "delta_median": 0.0729,
+    "delta_std": 0.0728,
+    "kutilgan_yonalishda_%": 100.0,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   }
+  },
+  "q->k": {
+   "n": 26,
+   "mean_logpost": {
+    "delta_ortacha": -1.078,
+    "delta_median": -1.1388,
+    "delta_std": 0.3718,
+    "kutilgan_yonalishda_%": 100.0,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   },
+   "path_norm": {
+    "delta_ortacha": -0.3913,
+    "delta_median": -0.3831,
+    "delta_std": 0.1485,
+    "kutilgan_yonalishda_%": 100.0,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   },
+   "margin": {
+    "delta_ortacha": -2.0018,
+    "delta_median": -2.1405,
+    "delta_std": 0.677,
+    "kutilgan_yonalishda_%": 100.0,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   },
+   "blank_ratio": {
+    "delta_ortacha": 0.0,
+    "delta_median": 0.0,
+    "delta_std": 0.0,
+    "kutilgan_yonalishda_%": 0.0,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   }
+  },
+  "x->h": {
+   "n": 9,
+   "mean_logpost": {
+    "delta_ortacha": -0.4464,
+    "delta_median": -0.4062,
+    "delta_std": 0.2706,
+    "kutilgan_yonalishda_%": 88.9,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   },
+   "path_norm": {
+    "delta_ortacha": -0.1585,
+    "delta_median": -0.1434,
+    "delta_std": 0.0993,
+    "kutilgan_yonalishda_%": 88.9,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   },
+   "margin": {
+    "delta_ortacha": -0.7671,
+    "delta_median": -0.6991,
+    "delta_std": 0.4358,
+    "kutilgan_yonalishda_%": 88.9,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   },
+   "blank_ratio": {
+    "delta_ortacha": 0.0,
+    "delta_median": 0.0,
+    "delta_std": 0.0,
+    "kutilgan_yonalishda_%": 0.0,
+    "NC_delta_ortacha": 0.0,
+    "NC_delta_median": 0.0
+   }
+  }
+ },
+ "xom": [
+  {
+   "id": "fleurs_00",
+   "tur": "q->k",
+   "soz_idx": 3,
+   "soz_togri": "boshqa",
+   "soz_buzuq": "boshka",
+   "togri": {
+    "mean_logpost": -0.0013,
+    "path_norm": -0.0042,
+    "margin": 8.5197,
+    "blank_ratio": 0.7143
+   },
+   "buzuq": {
+    "mean_logpost": -1.1953,
+    "path_norm": -0.3454,
+    "margin": 6.1318,
+    "blank_ratio": 0.7143
+   },
+   "nc_soz": "xohlashingiz",
+   "nc_togri": {
+    "mean_logpost": -0.0275,
+    "path_norm": -0.0411,
+    "margin": 7.8939,
+    "blank_ratio": 0.6176
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0275,
+    "path_norm": -0.0411,
+    "margin": 7.8939,
+    "blank_ratio": 0.6176
+   }
+  },
+  {
+   "id": "fleurs_00",
+   "tur": "k->q",
+   "soz_idx": 1,
+   "soz_togri": "shuningdek",
+   "soz_buzuq": "shuningdeq",
+   "togri": {
+    "mean_logpost": -0.0145,
+    "path_norm": -0.011,
+    "margin": 6.857,
+    "blank_ratio": 0.5417
+   },
+   "buzuq": {
+    "mean_logpost": -0.9772,
+    "path_norm": -0.4121,
+    "margin": 5.2821,
+    "blank_ratio": 0.5417
+   },
+   "nc_soz": "maslahatini",
+   "nc_togri": {
+    "mean_logpost": -0.3471,
+    "path_norm": -0.1293,
+    "margin": 6.775,
+    "blank_ratio": 0.625
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.3471,
+    "path_norm": -0.1293,
+    "margin": 6.775,
+    "blank_ratio": 0.625
+   }
+  },
+  {
+   "id": "fleurs_00",
+   "tur": "x->h",
+   "soz_idx": 7,
+   "soz_togri": "xohlashingiz",
+   "soz_buzuq": "hohlashingiz",
+   "togri": {
+    "mean_logpost": -0.0275,
+    "path_norm": -0.0411,
+    "margin": 7.8939,
+    "blank_ratio": 0.6176
+   },
+   "buzuq": {
+    "mean_logpost": -0.4337,
+    "path_norm": -0.1845,
+    "margin": 7.1441,
+    "blank_ratio": 0.6176
+   },
+   "nc_soz": "uchun",
+   "nc_togri": {
+    "mean_logpost": -0.0386,
+    "path_norm": -0.0349,
+    "margin": 8.6557,
+    "blank_ratio": 0.4545
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0386,
+    "path_norm": -0.0349,
+    "margin": 8.6557,
+    "blank_ratio": 0.4545
+   }
+  },
+  {
+   "id": "fleurs_00",
+   "tur": "h->x",
+   "soz_idx": 7,
+   "soz_togri": "xohlashingiz",
+   "soz_buzuq": "xoxlashingiz",
+   "togri": {
+    "mean_logpost": -0.0275,
+    "path_norm": -0.0411,
+    "margin": 7.8939,
+    "blank_ratio": 0.6176
+   },
+   "buzuq": {
+    "mean_logpost": -0.2629,
+    "path_norm": -0.1242,
+    "margin": 7.5761,
+    "blank_ratio": 0.6176
+   },
+   "nc_soz": "o‘zlarining",
+   "nc_togri": {
+    "mean_logpost": -0.4582,
+    "path_norm": -0.2441,
+    "margin": 8.2359,
+    "blank_ratio": 0.56
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.4582,
+    "path_norm": -0.2441,
+    "margin": 8.2359,
+    "blank_ratio": 0.56
+   }
+  },
+  {
+   "id": "fleurs_00",
+   "tur": "o‘->o",
+   "soz_idx": 12,
+   "soz_togri": "o‘zlarining",
+   "soz_buzuq": "ozlarining",
+   "togri": {
+    "mean_logpost": -0.4582,
+    "path_norm": -0.2441,
+    "margin": 8.2359,
+    "blank_ratio": 0.56
+   },
+   "buzuq": {
+    "mean_logpost": -0.5034,
+    "path_norm": -0.4591,
+    "margin": 8.1215,
+    "blank_ratio": 0.6
+   },
+   "nc_soz": "siz",
+   "nc_togri": {
+    "mean_logpost": -0.001,
+    "path_norm": -0.0004,
+    "margin": 8.9304,
+    "blank_ratio": 0.7
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.001,
+    "path_norm": -0.0004,
+    "margin": 8.9304,
+    "blank_ratio": 0.7
+   }
+  },
+  {
+   "id": "fleurs_00",
+   "tur": "belgi_tushirish",
+   "soz_idx": 7,
+   "soz_togri": "xohlashingiz",
+   "soz_buzuq": "xohlashigiz",
+   "togri": {
+    "mean_logpost": -0.0275,
+    "path_norm": -0.0411,
+    "margin": 7.8939,
+    "blank_ratio": 0.6176
+   },
+   "buzuq": {
+    "mean_logpost": -0.0299,
+    "path_norm": -0.2384,
+    "margin": 7.7888,
+    "blank_ratio": 0.6471
+   },
+   "nc_soz": "boshqa",
+   "nc_togri": {
+    "mean_logpost": -0.0013,
+    "path_norm": -0.0042,
+    "margin": 8.5197,
+    "blank_ratio": 0.7143
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0013,
+    "path_norm": -0.0042,
+    "margin": 8.5197,
+    "blank_ratio": 0.7143
+   }
+  },
+  {
+   "id": "fleurs_01",
+   "tur": "q->k",
+   "soz_idx": 5,
+   "soz_togri": "aloqa",
+   "soz_buzuq": "aloka",
+   "togri": {
+    "mean_logpost": -0.0457,
+    "path_norm": -0.0307,
+    "margin": 5.883,
+    "blank_ratio": 0.6875
+   },
+   "buzuq": {
+    "mean_logpost": -1.3789,
+    "path_norm": -0.4473,
+    "margin": 3.2164,
+    "blank_ratio": 0.6875
+   },
+   "nc_soz": "mujassamlashtiradi",
+   "nc_togri": {
+    "mean_logpost": -0.2134,
+    "path_norm": -0.2049,
+    "margin": 6.4367,
+    "blank_ratio": 0.6607
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.2134,
+    "path_norm": -0.2049,
+    "margin": 6.4367,
+    "blank_ratio": 0.6607
+   }
+  },
+  {
+   "id": "fleurs_01",
+   "tur": "x->h",
+   "soz_idx": 4,
+   "soz_togri": "shaxslararo",
+   "soz_buzuq": "shahslararo",
+   "togri": {
+    "mean_logpost": -0.0142,
+    "path_norm": -0.1172,
+    "margin": 7.4487,
+    "blank_ratio": 0.6842
+   },
+   "buzuq": {
+    "mean_logpost": -0.3189,
+    "path_norm": -0.2054,
+    "margin": 6.8901,
+    "blank_ratio": 0.6842
+   },
+   "nc_soz": "mujassamlashtiradi",
+   "nc_togri": {
+    "mean_logpost": -0.2134,
+    "path_norm": -0.2049,
+    "margin": 6.4367,
+    "blank_ratio": 0.6607
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.2134,
+    "path_norm": -0.2049,
+    "margin": 6.4367,
+    "blank_ratio": 0.6607
+   }
+  },
+  {
+   "id": "fleurs_01",
+   "tur": "h->x",
+   "soz_idx": 7,
+   "soz_togri": "mujassamlashtiradi",
+   "soz_buzuq": "mujassamlasxtiradi",
+   "togri": {
+    "mean_logpost": -0.2134,
+    "path_norm": -0.2049,
+    "margin": 6.4367,
+    "blank_ratio": 0.6607
+   },
+   "buzuq": {
+    "mean_logpost": -0.7376,
+    "path_norm": -0.4187,
+    "margin": 5.323,
+    "blank_ratio": 0.6786
+   },
+   "nc_soz": "shaxslararo",
+   "nc_togri": {
+    "mean_logpost": -0.0142,
+    "path_norm": -0.1172,
+    "margin": 7.4487,
+    "blank_ratio": 0.6842
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0142,
+    "path_norm": -0.1172,
+    "margin": 7.4487,
+    "blank_ratio": 0.6842
+   }
+  },
+  {
+   "id": "fleurs_01",
+   "tur": "o‘->o",
+   "soz_idx": 1,
+   "soz_togri": "o‘zida",
+   "soz_buzuq": "ozida",
+   "togri": {
+    "mean_logpost": -0.0506,
+    "path_norm": -0.028,
+    "margin": 6.7992,
+    "blank_ratio": 0.5385
+   },
+   "buzuq": {
+    "mean_logpost": -0.0549,
+    "path_norm": -0.3024,
+    "margin": 6.384,
+    "blank_ratio": 0.6154
+   },
+   "nc_soz": "elementlarini",
+   "nc_togri": {
+    "mean_logpost": -0.2481,
+    "path_norm": -0.1192,
+    "margin": 6.4326,
+    "blank_ratio": 0.6061
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.2481,
+    "path_norm": -0.1192,
+    "margin": 6.4326,
+    "blank_ratio": 0.6061
+   }
+  },
+  {
+   "id": "fleurs_01",
+   "tur": "belgi_tushirish",
+   "soz_idx": 3,
+   "soz_togri": "hamda",
+   "soz_buzuq": "hada",
+   "togri": {
+    "mean_logpost": -0.0887,
+    "path_norm": -0.0374,
+    "margin": 5.2771,
+    "blank_ratio": 0.5833
+   },
+   "buzuq": {
+    "mean_logpost": -0.1104,
+    "path_norm": -0.9347,
+    "margin": 4.9016,
+    "blank_ratio": 0.6667
+   },
+   "nc_soz": "o‘zida",
+   "nc_togri": {
+    "mean_logpost": -0.0506,
+    "path_norm": -0.028,
+    "margin": 6.7992,
+    "blank_ratio": 0.5385
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0506,
+    "path_norm": -0.028,
+    "margin": 6.7992,
+    "blank_ratio": 0.5385
+   }
+  },
+  {
+   "id": "fleurs_02",
+   "tur": "q->k",
+   "soz_idx": 7,
+   "soz_togri": "qanday",
+   "soz_buzuq": "kanday",
+   "togri": {
+    "mean_logpost": -0.0017,
+    "path_norm": -0.0216,
+    "margin": 8.2951,
+    "blank_ratio": 0.6471
+   },
+   "buzuq": {
+    "mean_logpost": -1.0655,
+    "path_norm": -0.397,
+    "margin": 6.1675,
+    "blank_ratio": 0.6471
+   },
+   "nc_soz": "qanday",
+   "nc_togri": {
+    "mean_logpost": -0.0016,
+    "path_norm": -0.0008,
+    "margin": 8.2469,
+    "blank_ratio": 0.6471
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0016,
+    "path_norm": -0.0008,
+    "margin": 8.2469,
+    "blank_ratio": 0.6471
+   }
+  },
+  {
+   "id": "fleurs_02",
+   "tur": "k->q",
+   "soz_idx": 12,
+   "soz_togri": "chunki",
+   "soz_buzuq": "chunqi",
+   "togri": {
+    "mean_logpost": -0.0027,
+    "path_norm": -0.0261,
+    "margin": 8.3088,
+    "blank_ratio": 0.6316
+   },
+   "buzuq": {
+    "mean_logpost": -1.5648,
+    "path_norm": -0.5194,
+    "margin": 5.7773,
+    "blank_ratio": 0.6316
+   },
+   "nc_soz": "qanday",
+   "nc_togri": {
+    "mean_logpost": -0.0017,
+    "path_norm": -0.0216,
+    "margin": 8.2951,
+    "blank_ratio": 0.6471
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0017,
+    "path_norm": -0.0216,
+    "margin": 8.2951,
+    "blank_ratio": 0.6471
+   }
+  },
+  {
+   "id": "fleurs_02",
+   "tur": "h->x",
+   "soz_idx": 14,
+   "soz_togri": "ancha",
+   "soz_buzuq": "ancxa",
+   "togri": {
+    "mean_logpost": -0.83,
+    "path_norm": -0.3321,
+    "margin": 4.6821,
+    "blank_ratio": 0.6154
+   },
+   "buzuq": {
+    "mean_logpost": -2.7597,
+    "path_norm": -1.0743,
+    "margin": 1.2712,
+    "blank_ratio": 0.6154
+   },
+   "nc_soz": "to‘qnashgan",
+   "nc_togri": {
+    "mean_logpost": -0.0633,
+    "path_norm": -0.0233,
+    "margin": 7.0132,
+    "blank_ratio": 0.6452
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0633,
+    "path_norm": -0.0233,
+    "margin": 7.0132,
+    "blank_ratio": 0.6452
+   }
+  },
+  {
+   "id": "fleurs_02",
+   "tur": "o‘->o",
+   "soz_idx": 18,
+   "soz_togri": "to‘qnashgan",
+   "soz_buzuq": "toqnashgan",
+   "togri": {
+    "mean_logpost": -0.0633,
+    "path_norm": -0.0233,
+    "margin": 7.0132,
+    "blank_ratio": 0.6452
+   },
+   "buzuq": {
+    "mean_logpost": -0.0596,
+    "path_norm": -0.0962,
+    "margin": 6.8614,
+    "blank_ratio": 0.6774
+   },
+   "nc_soz": "yer",
+   "nc_togri": {
+    "mean_logpost": -0.8512,
+    "path_norm": -0.3652,
+    "margin": 4.8636,
+    "blank_ratio": 0.5714
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.8512,
+    "path_norm": -0.3652,
+    "margin": 4.8636,
+    "blank_ratio": 0.5714
+   }
+  },
+  {
+   "id": "fleurs_02",
+   "tur": "belgi_tushirish",
+   "soz_idx": 4,
+   "soz_togri": "shakllanishini",
+   "soz_buzuq": "shakllanisini",
+   "togri": {
+    "mean_logpost": -0.0234,
+    "path_norm": -0.0177,
+    "margin": 7.9129,
+    "blank_ratio": 0.6875
+   },
+   "buzuq": {
+    "mean_logpost": -0.025,
+    "path_norm": -0.2915,
+    "margin": 7.8186,
+    "blank_ratio": 0.7292
+   },
+   "nc_soz": "qanday",
+   "nc_togri": {
+    "mean_logpost": -0.0017,
+    "path_norm": -0.0216,
+    "margin": 8.2951,
+    "blank_ratio": 0.6471
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0017,
+    "path_norm": -0.0216,
+    "margin": 8.2951,
+    "blank_ratio": 0.6471
+   }
+  },
+  {
+   "id": "fleurs_03",
+   "tur": "k->q",
+   "soz_idx": 13,
+   "soz_togri": "yakunida",
+   "soz_buzuq": "yaqunida",
+   "togri": {
+    "mean_logpost": -2.6196,
+    "path_norm": -1.683,
+    "margin": -0.6521,
+    "blank_ratio": 0.3846
+   },
+   "buzuq": {
+    "mean_logpost": -3.1587,
+    "path_norm": -2.0148,
+    "margin": -1.5483,
+    "blank_ratio": 0.3846
+   },
+   "nc_soz": "bu",
+   "nc_togri": {
+    "mean_logpost": -0.0399,
+    "path_norm": -0.0272,
+    "margin": 4.9592,
+    "blank_ratio": 0.3333
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0399,
+    "path_norm": -0.0272,
+    "margin": 4.9592,
+    "blank_ratio": 0.3333
+   }
+  },
+  {
+   "id": "fleurs_03",
+   "tur": "h->x",
+   "soz_idx": 5,
+   "soz_togri": "olish",
+   "soz_buzuq": "olisx",
+   "togri": {
+    "mean_logpost": -0.2879,
+    "path_norm": -0.295,
+    "margin": 4.2019,
+    "blank_ratio": 0.2857
+   },
+   "buzuq": {
+    "mean_logpost": -2.1295,
+    "path_norm": -1.6104,
+    "margin": 0.6927,
+    "blank_ratio": 0.2857
+   },
+   "nc_soz": "dunyodagi",
+   "nc_togri": {
+    "mean_logpost": -1.0066,
+    "path_norm": -0.6406,
+    "margin": 1.5924,
+    "blank_ratio": 0.4375
+   },
+   "nc_buzuq": {
+    "mean_logpost": -1.0066,
+    "path_norm": -0.6406,
+    "margin": 1.5924,
+    "blank_ratio": 0.4375
+   }
+  },
+  {
+   "id": "fleurs_03",
+   "tur": "o‘->o",
+   "soz_idx": 17,
+   "soz_togri": "o‘lchami",
+   "soz_buzuq": "olchami",
+   "togri": {
+    "mean_logpost": -1.1042,
+    "path_norm": -0.5411,
+    "margin": 2.7085,
+    "blank_ratio": 0.6
+   },
+   "buzuq": {
+    "mean_logpost": -1.0427,
+    "path_norm": -0.4826,
+    "margin": 2.8917,
+    "blank_ratio": 0.65
+   },
+   "nc_soz": "mm",
+   "nc_togri": {
+    "mean_logpost": -1.3704,
+    "path_norm": -1.115,
+    "margin": 1.8412,
+    "blank_ratio": 0.6667
+   },
+   "nc_buzuq": {
+    "mean_logpost": -1.3704,
+    "path_norm": -1.115,
+    "margin": 1.8412,
+    "blank_ratio": 0.6667
+   }
+  },
+  {
+   "id": "fleurs_03",
+   "tur": "belgi_tushirish",
+   "soz_idx": 14,
+   "soz_togri": "ustun",
+   "soz_buzuq": "utun",
+   "togri": {
+    "mean_logpost": -1.3214,
+    "path_norm": -0.7046,
+    "margin": 0.8302,
+    "blank_ratio": 0.5833
+   },
+   "buzuq": {
+    "mean_logpost": -3.7796,
+    "path_norm": -1.9152,
+    "margin": -2.2992,
+    "blank_ratio": 0.5
+   },
+   "nc_soz": "formati",
+   "nc_togri": {
+    "mean_logpost": -0.5131,
+    "path_norm": -0.8414,
+    "margin": 2.9953,
+    "blank_ratio": 0.7143
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.5131,
+    "path_norm": -0.8414,
+    "margin": 2.9953,
+    "blank_ratio": 0.7143
+   }
+  },
+  {
+   "id": "fleurs_04",
+   "tur": "q->k",
+   "soz_idx": 3,
+   "soz_togri": "qilib",
+   "soz_buzuq": "kilib",
+   "togri": {
+    "mean_logpost": -0.0019,
+    "path_norm": -0.0014,
+    "margin": 8.0076,
+    "blank_ratio": 0.5
+   },
+   "buzuq": {
+    "mean_logpost": -1.2826,
+    "path_norm": -0.6417,
+    "margin": 5.4462,
+    "blank_ratio": 0.5
+   },
+   "nc_soz": "kometalar",
+   "nc_togri": {
+    "mean_logpost": -0.4685,
+    "path_norm": -0.1357,
+    "margin": 5.8747,
+    "blank_ratio": 0.7188
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.4685,
+    "path_norm": -0.1357,
+    "margin": 5.8747,
+    "blank_ratio": 0.7188
+   }
+  },
+  {
+   "id": "fleurs_04",
+   "tur": "k->q",
+   "soz_idx": 13,
+   "soz_togri": "kometalar",
+   "soz_buzuq": "qometalar",
+   "togri": {
+    "mean_logpost": -0.4685,
+    "path_norm": -0.1357,
+    "margin": 5.8747,
+    "blank_ratio": 0.7188
+   },
+   "buzuq": {
+    "mean_logpost": -1.3436,
+    "path_norm": -0.3818,
+    "margin": 4.1245,
+    "blank_ratio": 0.7188
+   },
+   "nc_soz": "yer",
+   "nc_togri": {
+    "mean_logpost": -0.7228,
+    "path_norm": -0.3099,
+    "margin": 5.0721,
+    "blank_ratio": 0.5714
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.7228,
+    "path_norm": -0.3099,
+    "margin": 5.0721,
+    "blank_ratio": 0.5714
+   }
+  },
+  {
+   "id": "fleurs_04",
+   "tur": "h->x",
+   "soz_idx": 4,
+   "soz_togri": "shakllanishini",
+   "soz_buzuq": "sxakllanishini",
+   "togri": {
+    "mean_logpost": -0.0069,
+    "path_norm": -0.0088,
+    "margin": 8.15,
+    "blank_ratio": 0.6667
+   },
+   "buzuq": {
+    "mean_logpost": -0.7046,
+    "path_norm": -0.2665,
+    "margin": 6.8474,
+    "blank_ratio": 0.6875
+   },
+   "nc_soz": "to‘qnashgan",
+   "nc_togri": {
+    "mean_logpost": -0.221,
+    "path_norm": -0.0766,
+    "margin": 6.8924,
+    "blank_ratio": 0.625
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.221,
+    "path_norm": -0.0766,
+    "margin": 6.8924,
+    "blank_ratio": 0.625
+   }
+  },
+  {
+   "id": "fleurs_04",
+   "tur": "o‘->o",
+   "soz_idx": 18,
+   "soz_togri": "to‘qnashgan",
+   "soz_buzuq": "toqnashgan",
+   "togri": {
+    "mean_logpost": -0.221,
+    "path_norm": -0.0766,
+    "margin": 6.8924,
+    "blank_ratio": 0.625
+   },
+   "buzuq": {
+    "mean_logpost": -0.17,
+    "path_norm": -0.0744,
+    "margin": 6.8735,
+    "blank_ratio": 0.6562
+   },
+   "nc_soz": "qiladilar",
+   "nc_togri": {
+    "mean_logpost": -0.3373,
+    "path_norm": -0.1218,
+    "margin": 7.7348,
+    "blank_ratio": 0.6552
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.3373,
+    "path_norm": -0.1218,
+    "margin": 7.7348,
+    "blank_ratio": 0.6552
+   }
+  },
+  {
+   "id": "fleurs_04",
+   "tur": "belgi_tushirish",
+   "soz_idx": 17,
+   "soz_togri": "bilan",
+   "soz_buzuq": "bian",
+   "togri": {
+    "mean_logpost": -0.0027,
+    "path_norm": -0.002,
+    "margin": 8.5002,
+    "blank_ratio": 0.5
+   },
+   "buzuq": {
+    "mean_logpost": -0.0029,
+    "path_norm": -0.6773,
+    "margin": 8.7085,
+    "blank_ratio": 0.6
+   },
+   "nc_soz": "tushunishga",
+   "nc_togri": {
+    "mean_logpost": -0.0085,
+    "path_norm": -0.0046,
+    "margin": 7.2088,
+    "blank_ratio": 0.6
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0085,
+    "path_norm": -0.0046,
+    "margin": 7.2088,
+    "blank_ratio": 0.6
+   }
+  },
+  {
+   "id": "fleurs_05",
+   "tur": "q->k",
+   "soz_idx": 3,
+   "soz_togri": "boshqa",
+   "soz_buzuq": "boshka",
+   "togri": {
+    "mean_logpost": -0.0048,
+    "path_norm": -0.0028,
+    "margin": 8.0728,
+    "blank_ratio": 0.6316
+   },
+   "buzuq": {
+    "mean_logpost": -1.1484,
+    "path_norm": -0.3639,
+    "margin": 6.1123,
+    "blank_ratio": 0.6316
+   },
+   "nc_soz": "yo‘lagidan",
+   "nc_togri": {
+    "mean_logpost": -0.0118,
+    "path_norm": -0.0063,
+    "margin": 7.2819,
+    "blank_ratio": 0.6207
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0118,
+    "path_norm": -0.0063,
+    "margin": 7.2819,
+    "blank_ratio": 0.6207
+   }
+  },
+  {
+   "id": "fleurs_05",
+   "tur": "k->q",
+   "soz_idx": 16,
+   "soz_togri": "kishi",
+   "soz_buzuq": "qishi",
+   "togri": {
+    "mean_logpost": -0.0092,
+    "path_norm": -0.0039,
+    "margin": 7.4146,
+    "blank_ratio": 0.5385
+   },
+   "buzuq": {
+    "mean_logpost": -1.3504,
+    "path_norm": -0.5197,
+    "margin": 5.6747,
+    "blank_ratio": 0.5385
+   },
+   "nc_soz": "qo‘nish",
+   "nc_togri": {
+    "mean_logpost": -0.1707,
+    "path_norm": -0.0816,
+    "margin": 5.3669,
+    "blank_ratio": 0.5789
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.1707,
+    "path_norm": -0.0816,
+    "margin": 5.3669,
+    "blank_ratio": 0.5789
+   }
+  },
+  {
+   "id": "fleurs_05",
+   "tur": "h->x",
+   "soz_idx": 7,
+   "soz_togri": "qo‘nish",
+   "soz_buzuq": "qo‘nisx",
+   "togri": {
+    "mean_logpost": -0.1707,
+    "path_norm": -0.0816,
+    "margin": 5.3669,
+    "blank_ratio": 0.5789
+   },
+   "buzuq": {
+    "mean_logpost": -1.5572,
+    "path_norm": -0.5924,
+    "margin": 2.9662,
+    "blank_ratio": 0.5789
+   },
+   "nc_soz": "samolyot",
+   "nc_togri": {
+    "mean_logpost": -0.031,
+    "path_norm": -0.1099,
+    "margin": 5.958,
+    "blank_ratio": 0.6897
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.031,
+    "path_norm": -0.1099,
+    "margin": 5.958,
+    "blank_ratio": 0.6897
+   }
+  },
+  {
+   "id": "fleurs_05",
+   "tur": "o‘->o",
+   "soz_idx": 8,
+   "soz_togri": "yo‘lagidan",
+   "soz_buzuq": "yolagidan",
+   "togri": {
+    "mean_logpost": -0.0118,
+    "path_norm": -0.0063,
+    "margin": 7.2819,
+    "blank_ratio": 0.6207
+   },
+   "buzuq": {
+    "mean_logpost": -0.0096,
+    "path_norm": -0.2509,
+    "margin": 6.9875,
+    "blank_ratio": 0.6897
+   },
+   "nc_soz": "boshqa",
+   "nc_togri": {
+    "mean_logpost": -0.0048,
+    "path_norm": -0.0028,
+    "margin": 8.0728,
+    "blank_ratio": 0.6316
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0048,
+    "path_norm": -0.0028,
+    "margin": 8.0728,
+    "blank_ratio": 0.6316
+   }
+  },
+  {
+   "id": "fleurs_05",
+   "tur": "belgi_tushirish",
+   "soz_idx": 8,
+   "soz_togri": "yo‘lagidan",
+   "soz_buzuq": "yo‘lagian",
+   "togri": {
+    "mean_logpost": -0.0118,
+    "path_norm": -0.0063,
+    "margin": 7.2819,
+    "blank_ratio": 0.6207
+   },
+   "buzuq": {
+    "mean_logpost": -0.013,
+    "path_norm": -0.2996,
+    "margin": 7.1784,
+    "blank_ratio": 0.6552
+   },
+   "nc_soz": "bir",
+   "nc_togri": {
+    "mean_logpost": -0.0251,
+    "path_norm": -0.0128,
+    "margin": 7.6425,
+    "blank_ratio": 0.5
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0251,
+    "path_norm": -0.0128,
+    "margin": 7.6425,
+    "blank_ratio": 0.5
+   }
+  },
+  {
+   "id": "fleurs_06",
+   "tur": "q->k",
+   "soz_idx": 2,
+   "soz_togri": "ittifoqchilar",
+   "soz_buzuq": "ittifokchilar",
+   "togri": {
+    "mean_logpost": -0.014,
+    "path_norm": -0.0063,
+    "margin": 7.9791,
+    "blank_ratio": 0.65
+   },
+   "buzuq": {
+    "mean_logpost": -0.4214,
+    "path_norm": -0.1387,
+    "margin": 7.2226,
+    "blank_ratio": 0.65
+   },
+   "nc_soz": "deb",
+   "nc_togri": {
+    "mean_logpost": -0.0011,
+    "path_norm": -0.0005,
+    "margin": 8.156,
+    "blank_ratio": 0.5714
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0011,
+    "path_norm": -0.0005,
+    "margin": 8.156,
+    "blank_ratio": 0.5714
+   }
+  },
+  {
+   "id": "fleurs_06",
+   "tur": "k->q",
+   "soz_idx": 6,
+   "soz_togri": "kirdi",
+   "soz_buzuq": "qirdi",
+   "togri": {
+    "mean_logpost": -0.0018,
+    "path_norm": -0.0011,
+    "margin": 7.8572,
+    "blank_ratio": 0.6875
+   },
+   "buzuq": {
+    "mean_logpost": -1.4623,
+    "path_norm": -0.4575,
+    "margin": 4.936,
+    "blank_ratio": 0.6875
+   },
+   "nc_soz": "ittifoqchilar",
+   "nc_togri": {
+    "mean_logpost": -0.014,
+    "path_norm": -0.0063,
+    "margin": 7.9791,
+    "blank_ratio": 0.65
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.014,
+    "path_norm": -0.0063,
+    "margin": 7.9791,
+    "blank_ratio": 0.65
+   }
+  },
+  {
+   "id": "fleurs_06",
+   "tur": "h->x",
+   "soz_idx": 2,
+   "soz_togri": "ittifoqchilar",
+   "soz_buzuq": "ittifoqcxilar",
+   "togri": {
+    "mean_logpost": -0.014,
+    "path_norm": -0.0063,
+    "margin": 7.9791,
+    "blank_ratio": 0.65
+   },
+   "buzuq": {
+    "mean_logpost": -0.7242,
+    "path_norm": -0.4193,
+    "margin": 6.4452,
+    "blank_ratio": 0.675
+   },
+   "nc_soz": "ajdar",
+   "nc_togri": {
+    "mean_logpost": -0.0066,
+    "path_norm": -0.0071,
+    "margin": 6.1118,
+    "blank_ratio": 0.7222
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0066,
+    "path_norm": -0.0071,
+    "margin": 6.1118,
+    "blank_ratio": 0.7222
+   }
+  },
+  {
+   "id": "fleurs_06",
+   "tur": "belgi_tushirish",
+   "soz_idx": 0,
+   "soz_togri": "yilning",
+   "soz_buzuq": "yiling",
+   "togri": {
+    "mean_logpost": -0.0156,
+    "path_norm": -0.01,
+    "margin": 7.6068,
+    "blank_ratio": 0.5556
+   },
+   "buzuq": {
+    "mean_logpost": -0.0178,
+    "path_norm": -0.3648,
+    "margin": 7.3742,
+    "blank_ratio": 0.6111
+   },
+   "nc_soz": "ajdar",
+   "nc_togri": {
+    "mean_logpost": -0.0066,
+    "path_norm": -0.0071,
+    "margin": 6.1118,
+    "blank_ratio": 0.7222
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0066,
+    "path_norm": -0.0071,
+    "margin": 6.1118,
+    "blank_ratio": 0.7222
+   }
+  },
+  {
+   "id": "fleurs_07",
+   "tur": "q->k",
+   "soz_idx": 0,
+   "soz_togri": "aqsh",
+   "soz_buzuq": "aksh",
+   "togri": {
+    "mean_logpost": -0.0709,
+    "path_norm": -0.0291,
+    "margin": 5.9966,
+    "blank_ratio": 0.6
+   },
+   "buzuq": {
+    "mean_logpost": -1.5272,
+    "path_norm": -0.6116,
+    "margin": 3.0841,
+    "blank_ratio": 0.6
+   },
+   "nc_soz": "muhitda",
+   "nc_togri": {
+    "mean_logpost": -1.4732,
+    "path_norm": -0.696,
+    "margin": 3.2758,
+    "blank_ratio": 0.5333
+   },
+   "nc_buzuq": {
+    "mean_logpost": -1.4732,
+    "path_norm": -0.696,
+    "margin": 3.2758,
+    "blank_ratio": 0.5333
+   }
+  },
+  {
+   "id": "fleurs_07",
+   "tur": "k->q",
+   "soz_idx": 23,
+   "soz_togri": "imkon",
+   "soz_buzuq": "imqon",
+   "togri": {
+    "mean_logpost": -0.0132,
+    "path_norm": -0.0046,
+    "margin": 6.7375,
+    "blank_ratio": 0.6875
+   },
+   "buzuq": {
+    "mean_logpost": -1.1065,
+    "path_norm": -0.3463,
+    "margin": 4.5508,
+    "blank_ratio": 0.6875
+   },
+   "nc_soz": "qilish",
+   "nc_togri": {
+    "mean_logpost": -0.0095,
+    "path_norm": -0.0101,
+    "margin": 8.3652,
+    "blank_ratio": 0.3571
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0095,
+    "path_norm": -0.0101,
+    "margin": 8.3652,
+    "blank_ratio": 0.3571
+   }
+  },
+  {
+   "id": "fleurs_07",
+   "tur": "x->h",
+   "soz_idx": 16,
+   "soz_togri": "xavfsiz",
+   "soz_buzuq": "havfsiz",
+   "togri": {
+    "mean_logpost": -0.0283,
+    "path_norm": -0.0139,
+    "margin": 5.573,
+    "blank_ratio": 0.5789
+   },
+   "buzuq": {
+    "mean_logpost": -0.3812,
+    "path_norm": -0.1439,
+    "margin": 4.9555,
+    "blank_ratio": 0.5789
+   },
+   "nc_soz": "imkon",
+   "nc_togri": {
+    "mean_logpost": -0.0132,
+    "path_norm": -0.0046,
+    "margin": 6.7375,
+    "blank_ratio": 0.6875
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0132,
+    "path_norm": -0.0046,
+    "margin": 6.7375,
+    "blank_ratio": 0.6875
+   }
+  },
+  {
+   "id": "fleurs_07",
+   "tur": "h->x",
+   "soz_idx": 12,
+   "soz_togri": "boshqalarni",
+   "soz_buzuq": "bosxqalarni",
+   "togri": {
+    "mean_logpost": -0.0213,
+    "path_norm": -0.041,
+    "margin": 7.4057,
+    "blank_ratio": 0.5714
+   },
+   "buzuq": {
+    "mean_logpost": -0.8868,
+    "path_norm": -0.381,
+    "margin": 5.819,
+    "blank_ratio": 0.5714
+   },
+   "nc_soz": "ijobiy",
+   "nc_togri": {
+    "mean_logpost": -0.1663,
+    "path_norm": -0.076,
+    "margin": 4.3931,
+    "blank_ratio": 0.6471
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.1663,
+    "path_norm": -0.076,
+    "margin": 4.3931,
+    "blank_ratio": 0.6471
+   }
+  },
+  {
+   "id": "fleurs_07",
+   "tur": "o‘->o",
+   "soz_idx": 14,
+   "soz_togri": "o‘z",
+   "soz_buzuq": "oz",
+   "togri": {
+    "mean_logpost": -0.0024,
+    "path_norm": -0.0437,
+    "margin": 8.0805,
+    "blank_ratio": 0.4
+   },
+   "buzuq": {
+    "mean_logpost": -0.0014,
+    "path_norm": -1.1657,
+    "margin": 7.4706,
+    "blank_ratio": 0.6
+   },
+   "nc_soz": "qilish",
+   "nc_togri": {
+    "mean_logpost": -0.0095,
+    "path_norm": -0.0101,
+    "margin": 8.3652,
+    "blank_ratio": 0.3571
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0095,
+    "path_norm": -0.0101,
+    "margin": 8.3652,
+    "blank_ratio": 0.3571
+   }
+  },
+  {
+   "id": "fleurs_07",
+   "tur": "belgi_tushirish",
+   "soz_idx": 15,
+   "soz_togri": "orzulariga",
+   "soz_buzuq": "orzularia",
+   "togri": {
+    "mean_logpost": -0.124,
+    "path_norm": -0.0551,
+    "margin": 6.8454,
+    "blank_ratio": 0.5833
+   },
+   "buzuq": {
+    "mean_logpost": -0.1376,
+    "path_norm": -0.3967,
+    "margin": 6.8031,
+    "blank_ratio": 0.625
+   },
+   "nc_soz": "gimnastika",
+   "nc_togri": {
+    "mean_logpost": -1.933,
+    "path_norm": -1.0031,
+    "margin": 1.921,
+    "blank_ratio": 0.5238
+   },
+   "nc_buzuq": {
+    "mean_logpost": -1.933,
+    "path_norm": -1.0031,
+    "margin": 1.921,
+    "blank_ratio": 0.5238
+   }
+  },
+  {
+   "id": "fleurs_08",
+   "tur": "q->k",
+   "soz_idx": 0,
+   "soz_togri": "qotishmalar",
+   "soz_buzuq": "kotishmalar",
+   "togri": {
+    "mean_logpost": -0.0328,
+    "path_norm": -0.4444,
+    "margin": 7.0348,
+    "blank_ratio": 0.6571
+   },
+   "buzuq": {
+    "mean_logpost": -0.6128,
+    "path_norm": -0.6267,
+    "margin": 5.9714,
+    "blank_ratio": 0.6571
+   },
+   "nc_soz": "davriy",
+   "nc_togri": {
+    "mean_logpost": -1.308,
+    "path_norm": -0.5246,
+    "margin": 3.6667,
+    "blank_ratio": 0.6
+   },
+   "nc_buzuq": {
+    "mean_logpost": -1.308,
+    "path_norm": -0.5246,
+    "margin": 3.6667,
+    "blank_ratio": 0.6
+   }
+  },
+  {
+   "id": "fleurs_08",
+   "tur": "k->q",
+   "soz_idx": 5,
+   "soz_togri": "ko‘p",
+   "soz_buzuq": "qo‘p",
+   "togri": {
+    "mean_logpost": -0.0286,
+    "path_norm": -0.0194,
+    "margin": 6.2793,
+    "blank_ratio": 0.5
+   },
+   "buzuq": {
+    "mean_logpost": -1.3412,
+    "path_norm": -0.6757,
+    "margin": 3.6541,
+    "blank_ratio": 0.5
+   },
+   "nc_soz": "qotishmalar",
+   "nc_togri": {
+    "mean_logpost": -0.0328,
+    "path_norm": -0.4444,
+    "margin": 7.0348,
+    "blank_ratio": 0.6571
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0328,
+    "path_norm": -0.4444,
+    "margin": 7.0348,
+    "blank_ratio": 0.6571
+   }
+  },
+  {
+   "id": "fleurs_08",
+   "tur": "h->x",
+   "soz_idx": 14,
+   "soz_togri": "chiqarmang",
+   "soz_buzuq": "cxiqarmang",
+   "togri": {
+    "mean_logpost": -0.0263,
+    "path_norm": -0.0304,
+    "margin": 7.1766,
+    "blank_ratio": 0.52
+   },
+   "buzuq": {
+    "mean_logpost": -1.0188,
+    "path_norm": -0.4274,
+    "margin": 5.5223,
+    "blank_ratio": 0.52
+   },
+   "nc_soz": "ko‘p",
+   "nc_togri": {
+    "mean_logpost": -0.0696,
+    "path_norm": -0.0996,
+    "margin": 5.8425,
+    "blank_ratio": 0.5
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0696,
+    "path_norm": -0.0996,
+    "margin": 5.8425,
+    "blank_ratio": 0.5
+   }
+  },
+  {
+   "id": "fleurs_08",
+   "tur": "o‘->o",
+   "soz_idx": 5,
+   "soz_togri": "ko‘p",
+   "soz_buzuq": "kop",
+   "togri": {
+    "mean_logpost": -0.0286,
+    "path_norm": -0.0194,
+    "margin": 6.2793,
+    "blank_ratio": 0.5
+   },
+   "buzuq": {
+    "mean_logpost": -0.0071,
+    "path_norm": -0.3125,
+    "margin": 5.5055,
+    "blank_ratio": 0.625
+   },
+   "nc_soz": "davriy",
+   "nc_togri": {
+    "mean_logpost": -1.308,
+    "path_norm": -0.5246,
+    "margin": 3.6667,
+    "blank_ratio": 0.6
+   },
+   "nc_buzuq": {
+    "mean_logpost": -1.308,
+    "path_norm": -0.5246,
+    "margin": 3.6667,
+    "blank_ratio": 0.6
+   }
+  },
+  {
+   "id": "fleurs_08",
+   "tur": "belgi_tushirish",
+   "soz_idx": 2,
+   "soz_togri": "ikki",
+   "soz_buzuq": "iki",
+   "togri": {
+    "mean_logpost": -0.0016,
+    "path_norm": -0.003,
+    "margin": 7.8863,
+    "blank_ratio": 0.6667
+   },
+   "buzuq": {
+    "mean_logpost": -0.0016,
+    "path_norm": -0.6478,
+    "margin": 7.6291,
+    "blank_ratio": 0.75
+   },
+   "nc_soz": "undan",
+   "nc_togri": {
+    "mean_logpost": -0.0063,
+    "path_norm": -0.0059,
+    "margin": 6.8119,
+    "blank_ratio": 0.5
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0063,
+    "path_norm": -0.0059,
+    "margin": 6.8119,
+    "blank_ratio": 0.5
+   }
+  },
+  {
+   "id": "fleurs_09",
+   "tur": "q->k",
+   "soz_idx": 0,
+   "soz_togri": "qo‘ng‘iz",
+   "soz_buzuq": "ko‘ng‘iz",
+   "togri": {
+    "mean_logpost": -0.0278,
+    "path_norm": -0.0168,
+    "margin": 7.2757,
+    "blank_ratio": 0.5417
+   },
+   "buzuq": {
+    "mean_logpost": -0.7945,
+    "path_norm": -0.2724,
+    "margin": 6.1605,
+    "blank_ratio": 0.5417
+   },
+   "nc_soz": "tomonidan",
+   "nc_togri": {
+    "mean_logpost": -0.0038,
+    "path_norm": -0.0012,
+    "margin": 8.074,
+    "blank_ratio": 0.7273
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0038,
+    "path_norm": -0.0012,
+    "margin": 8.074,
+    "blank_ratio": 0.7273
+   }
+  },
+  {
+   "id": "fleurs_09",
+   "tur": "k->q",
+   "soz_idx": 6,
+   "soz_togri": "mazkur",
+   "soz_buzuq": "mazqur",
+   "togri": {
+    "mean_logpost": -0.0203,
+    "path_norm": -0.0065,
+    "margin": 6.1978,
+    "blank_ratio": 0.7
+   },
+   "buzuq": {
+    "mean_logpost": -1.3588,
+    "path_norm": -0.408,
+    "margin": 4.3323,
+    "blank_ratio": 0.7
+   },
+   "nc_soz": "etnomologlar",
+   "nc_togri": {
+    "mean_logpost": -0.3198,
+    "path_norm": -0.085,
+    "margin": 5.5338,
+    "blank_ratio": 0.7647
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.3198,
+    "path_norm": -0.085,
+    "margin": 5.5338,
+    "blank_ratio": 0.7647
+   }
+  },
+  {
+   "id": "fleurs_09",
+   "tur": "h->x",
+   "soz_idx": 7,
+   "soz_togri": "hasharotlar",
+   "soz_buzuq": "xasharotlar",
+   "togri": {
+    "mean_logpost": -0.7095,
+    "path_norm": -0.2094,
+    "margin": 5.7432,
+    "blank_ratio": 0.6842
+   },
+   "buzuq": {
+    "mean_logpost": -0.8078,
+    "path_norm": -0.2379,
+    "margin": 5.563,
+    "blank_ratio": 0.6842
+   },
+   "nc_soz": "etnomologlar",
+   "nc_togri": {
+    "mean_logpost": -0.3198,
+    "path_norm": -0.085,
+    "margin": 5.5338,
+    "blank_ratio": 0.7647
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.3198,
+    "path_norm": -0.085,
+    "margin": 5.5338,
+    "blank_ratio": 0.7647
+   }
+  },
+  {
+   "id": "fleurs_09",
+   "tur": "o‘->o",
+   "soz_idx": 10,
+   "soz_togri": "qo‘llaniladi",
+   "soz_buzuq": "qollaniladi",
+   "togri": {
+    "mean_logpost": -0.1541,
+    "path_norm": -0.06,
+    "margin": 7.3205,
+    "blank_ratio": 0.65
+   },
+   "buzuq": {
+    "mean_logpost": -0.1394,
+    "path_norm": -0.0851,
+    "margin": 7.3494,
+    "blank_ratio": 0.675
+   },
+   "nc_soz": "mazkur",
+   "nc_togri": {
+    "mean_logpost": -0.0203,
+    "path_norm": -0.0065,
+    "margin": 6.1978,
+    "blank_ratio": 0.7
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0203,
+    "path_norm": -0.0065,
+    "margin": 6.1978,
+    "blank_ratio": 0.7
+   }
+  },
+  {
+   "id": "fleurs_09",
+   "tur": "g‘->g",
+   "soz_idx": 0,
+   "soz_togri": "qo‘ng‘iz",
+   "soz_buzuq": "qo‘ngiz",
+   "togri": {
+    "mean_logpost": -0.0278,
+    "path_norm": -0.0168,
+    "margin": 7.2757,
+    "blank_ratio": 0.5417
+   },
+   "buzuq": {
+    "mean_logpost": -0.0291,
+    "path_norm": -0.3619,
+    "margin": 7.1379,
+    "blank_ratio": 0.625
+   },
+   "nc_soz": "etnomologlar",
+   "nc_togri": {
+    "mean_logpost": -0.3198,
+    "path_norm": -0.085,
+    "margin": 5.5338,
+    "blank_ratio": 0.7647
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.3198,
+    "path_norm": -0.085,
+    "margin": 5.5338,
+    "blank_ratio": 0.7647
+   }
+  },
+  {
+   "id": "fleurs_09",
+   "tur": "belgi_tushirish",
+   "soz_idx": 5,
+   "soz_togri": "ma‘noda",
+   "soz_buzuq": "ma‘noa",
+   "togri": {
+    "mean_logpost": -1.2188,
+    "path_norm": -0.4247,
+    "margin": 5.7374,
+    "blank_ratio": 0.6957
+   },
+   "buzuq": {
+    "mean_logpost": -1.4217,
+    "path_norm": -0.7916,
+    "margin": 5.386,
+    "blank_ratio": 0.7391
+   },
+   "nc_soz": "tomonidan",
+   "nc_togri": {
+    "mean_logpost": -0.0038,
+    "path_norm": -0.0012,
+    "margin": 8.074,
+    "blank_ratio": 0.7273
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0038,
+    "path_norm": -0.0012,
+    "margin": 8.074,
+    "blank_ratio": 0.7273
+   }
+  },
+  {
+   "id": "fleurs_10",
+   "tur": "q->k",
+   "soz_idx": 7,
+   "soz_togri": "qadar",
+   "soz_buzuq": "kadar",
+   "togri": {
+    "mean_logpost": -0.005,
+    "path_norm": -0.0025,
+    "margin": 6.8841,
+    "blank_ratio": 0.5455
+   },
+   "buzuq": {
+    "mean_logpost": -1.1887,
+    "path_norm": -0.5405,
+    "margin": 4.5167,
+    "blank_ratio": 0.5455
+   },
+   "nc_soz": "bolalar",
+   "nc_togri": {
+    "mean_logpost": -0.0015,
+    "path_norm": -0.0008,
+    "margin": 8.6592,
+    "blank_ratio": 0.6316
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0015,
+    "path_norm": -0.0008,
+    "margin": 8.6592,
+    "blank_ratio": 0.6316
+   }
+  },
+  {
+   "id": "fleurs_10",
+   "tur": "k->q",
+   "soz_idx": 1,
+   "soz_togri": "e‘tiborsizlikdan",
+   "soz_buzuq": "e‘tiborsizliqdan",
+   "togri": {
+    "mean_logpost": -0.4005,
+    "path_norm": -0.1777,
+    "margin": 6.7371,
+    "blank_ratio": 0.5405
+   },
+   "buzuq": {
+    "mean_logpost": -0.919,
+    "path_norm": -0.4019,
+    "margin": 5.8044,
+    "blank_ratio": 0.5405
+   },
+   "nc_soz": "sabablarga",
+   "nc_togri": {
+    "mean_logpost": -0.2384,
+    "path_norm": -0.0961,
+    "margin": 7.1523,
+    "blank_ratio": 0.6
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.2384,
+    "path_norm": -0.0961,
+    "margin": 7.1523,
+    "blank_ratio": 0.6
+   }
+  },
+  {
+   "id": "fleurs_10",
+   "tur": "h->x",
+   "soz_idx": 6,
+   "soz_togri": "tovlamachilikka",
+   "soz_buzuq": "tovlamacxilikka",
+   "togri": {
+    "mean_logpost": -0.7693,
+    "path_norm": -0.3441,
+    "margin": 3.5058,
+    "blank_ratio": 0.6053
+   },
+   "buzuq": {
+    "mean_logpost": -1.4219,
+    "path_norm": -0.6017,
+    "margin": 2.2853,
+    "blank_ratio": 0.6053
+   },
+   "nc_soz": "e‘tiborsizlikdan",
+   "nc_togri": {
+    "mean_logpost": -0.4005,
+    "path_norm": -0.1777,
+    "margin": 6.7371,
+    "blank_ratio": 0.5405
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.4005,
+    "path_norm": -0.1777,
+    "margin": 6.7371,
+    "blank_ratio": 0.5405
+   }
+  },
+  {
+   "id": "fleurs_10",
+   "tur": "o‘->o",
+   "soz_idx": 10,
+   "soz_togri": "ko‘ra",
+   "soz_buzuq": "kora",
+   "togri": {
+    "mean_logpost": -0.0119,
+    "path_norm": -0.01,
+    "margin": 7.7822,
+    "blank_ratio": 0.4545
+   },
+   "buzuq": {
+    "mean_logpost": -0.0024,
+    "path_norm": -0.5592,
+    "margin": 7.2768,
+    "blank_ratio": 0.6364
+   },
+   "nc_soz": "va",
+   "nc_togri": {
+    "mean_logpost": -0.0084,
+    "path_norm": -0.0058,
+    "margin": 5.87,
+    "blank_ratio": 0.3333
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0084,
+    "path_norm": -0.0058,
+    "margin": 5.87,
+    "blank_ratio": 0.3333
+   }
+  },
+  {
+   "id": "fleurs_10",
+   "tur": "belgi_tushirish",
+   "soz_idx": 8,
+   "soz_togri": "turli",
+   "soz_buzuq": "tuli",
+   "togri": {
+    "mean_logpost": -0.0016,
+    "path_norm": -0.0032,
+    "margin": 7.9391,
+    "blank_ratio": 0.5
+   },
+   "buzuq": {
+    "mean_logpost": -0.0018,
+    "path_norm": -0.8053,
+    "margin": 7.8348,
+    "blank_ratio": 0.6
+   },
+   "nc_soz": "homiylik",
+   "nc_togri": {
+    "mean_logpost": -0.1657,
+    "path_norm": -0.0543,
+    "margin": 5.0004,
+    "blank_ratio": 0.68
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.1657,
+    "path_norm": -0.0543,
+    "margin": 5.0004,
+    "blank_ratio": 0.68
+   }
+  },
+  {
+   "id": "fleurs_11",
+   "tur": "q->k",
+   "soz_idx": 24,
+   "soz_togri": "qochib",
+   "soz_buzuq": "kochib",
+   "togri": {
+    "mean_logpost": -0.9995,
+    "path_norm": -0.7415,
+    "margin": 5.0344,
+    "blank_ratio": 0.6471
+   },
+   "buzuq": {
+    "mean_logpost": -2.0547,
+    "path_norm": -1.1139,
+    "margin": 2.9241,
+    "blank_ratio": 0.6471
+   },
+   "nc_soz": "qo‘shimcha",
+   "nc_togri": {
+    "mean_logpost": -0.2759,
+    "path_norm": -0.1401,
+    "margin": 5.561,
+    "blank_ratio": 0.5217
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.2759,
+    "path_norm": -0.1401,
+    "margin": 5.561,
+    "blank_ratio": 0.5217
+   }
+  },
+  {
+   "id": "fleurs_11",
+   "tur": "k->q",
+   "soz_idx": 7,
+   "soz_togri": "o‘tkir",
+   "soz_buzuq": "o‘tqir",
+   "togri": {
+    "mean_logpost": -1.6372,
+    "path_norm": -0.7155,
+    "margin": 1.6408,
+    "blank_ratio": 0.5714
+   },
+   "buzuq": {
+    "mean_logpost": -1.0381,
+    "path_norm": -0.4588,
+    "margin": 2.839,
+    "blank_ratio": 0.5714
+   },
+   "nc_soz": "qismida",
+   "nc_togri": {
+    "mean_logpost": -2.0938,
+    "path_norm": -1.052,
+    "margin": 1.8249,
+    "blank_ratio": 0.5
+   },
+   "nc_buzuq": {
+    "mean_logpost": -2.0938,
+    "path_norm": -1.052,
+    "margin": 1.8249,
+    "blank_ratio": 0.5
+   }
+  },
+  {
+   "id": "fleurs_11",
+   "tur": "h->x",
+   "soz_idx": 25,
+   "soz_togri": "ketish",
+   "soz_buzuq": "ketisx",
+   "togri": {
+    "mean_logpost": -0.0062,
+    "path_norm": -0.0128,
+    "margin": 7.0556,
+    "blank_ratio": 0.4167
+   },
+   "buzuq": {
+    "mean_logpost": -1.6247,
+    "path_norm": -0.822,
+    "margin": 4.5755,
+    "blank_ratio": 0.4167
+   },
+   "nc_soz": "va",
+   "nc_togri": {
+    "mean_logpost": -0.0062,
+    "path_norm": -0.0039,
+    "margin": 6.7053,
+    "blank_ratio": 0.5
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0062,
+    "path_norm": -0.0039,
+    "margin": 6.7053,
+    "blank_ratio": 0.5
+   }
+  },
+  {
+   "id": "fleurs_11",
+   "tur": "o‘->o",
+   "soz_idx": 27,
+   "soz_togri": "yo‘qligini",
+   "soz_buzuq": "yoqligini",
+   "togri": {
+    "mean_logpost": -0.1975,
+    "path_norm": -0.1508,
+    "margin": 4.542,
+    "blank_ratio": 0.5833
+   },
+   "buzuq": {
+    "mean_logpost": -0.2036,
+    "path_norm": -0.2297,
+    "margin": 4.162,
+    "blank_ratio": 0.625
+   },
+   "nc_soz": "singari",
+   "nc_togri": {
+    "mean_logpost": -0.1049,
+    "path_norm": -0.0512,
+    "margin": 4.8729,
+    "blank_ratio": 0.5882
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.1049,
+    "path_norm": -0.0512,
+    "margin": 4.8729,
+    "blank_ratio": 0.5882
+   }
+  },
+  {
+   "id": "fleurs_11",
+   "tur": "g‘->g",
+   "soz_idx": 2,
+   "soz_togri": "jag‘larida",
+   "soz_buzuq": "jaglarida",
+   "togri": {
+    "mean_logpost": -0.5591,
+    "path_norm": -0.3056,
+    "margin": 4.1337,
+    "blank_ratio": 0.5833
+   },
+   "buzuq": {
+    "mean_logpost": -0.5407,
+    "path_norm": -0.3033,
+    "margin": 3.8372,
+    "blank_ratio": 0.625
+   },
+   "nc_soz": "uning",
+   "nc_togri": {
+    "mean_logpost": -0.0037,
+    "path_norm": -0.0032,
+    "margin": 8.3634,
+    "blank_ratio": 0.4
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0037,
+    "path_norm": -0.0032,
+    "margin": 8.3634,
+    "blank_ratio": 0.4
+   }
+  },
+  {
+   "id": "fleurs_11",
+   "tur": "belgi_tushirish",
+   "soz_idx": 17,
+   "soz_togri": "joylashgan",
+   "soz_buzuq": "jolashgan",
+   "togri": {
+    "mean_logpost": -0.5608,
+    "path_norm": -0.4612,
+    "margin": 4.4321,
+    "blank_ratio": 0.6429
+   },
+   "buzuq": {
+    "mean_logpost": -0.5686,
+    "path_norm": -0.5308,
+    "margin": 4.7396,
+    "blank_ratio": 0.6786
+   },
+   "nc_soz": "ketish",
+   "nc_togri": {
+    "mean_logpost": -0.0062,
+    "path_norm": -0.0128,
+    "margin": 7.0556,
+    "blank_ratio": 0.4167
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0062,
+    "path_norm": -0.0128,
+    "margin": 7.0556,
+    "blank_ratio": 0.4167
+   }
+  },
+  {
+   "id": "fleurs_12",
+   "tur": "q->k",
+   "soz_idx": 9,
+   "soz_togri": "qaramay",
+   "soz_buzuq": "karamay",
+   "togri": {
+    "mean_logpost": -0.9467,
+    "path_norm": -0.4765,
+    "margin": 3.5258,
+    "blank_ratio": 0.5
+   },
+   "buzuq": {
+    "mean_logpost": -1.7605,
+    "path_norm": -0.8834,
+    "margin": 1.8983,
+    "blank_ratio": 0.5
+   },
+   "nc_soz": "xaritasi",
+   "nc_togri": {
+    "mean_logpost": -0.2169,
+    "path_norm": -0.1037,
+    "margin": 3.8648,
+    "blank_ratio": 0.68
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.2169,
+    "path_norm": -0.1037,
+    "margin": 3.8648,
+    "blank_ratio": 0.68
+   }
+  },
+  {
+   "id": "fleurs_12",
+   "tur": "k->q",
+   "soz_idx": 0,
+   "soz_togri": "lekin",
+   "soz_buzuq": "leqin",
+   "togri": {
+    "mean_logpost": -1.012,
+    "path_norm": -0.3688,
+    "margin": 0.8712,
+    "blank_ratio": 0.6429
+   },
+   "buzuq": {
+    "mean_logpost": -2.8163,
+    "path_norm": -1.0132,
+    "margin": -1.9685,
+    "blank_ratio": 0.6429
+   },
+   "nc_soz": "nimadir",
+   "nc_togri": {
+    "mean_logpost": -1.7686,
+    "path_norm": -0.7052,
+    "margin": 1.7691,
+    "blank_ratio": 0.6111
+   },
+   "nc_buzuq": {
+    "mean_logpost": -1.7686,
+    "path_norm": -0.7052,
+    "margin": 1.7691,
+    "blank_ratio": 0.6111
+   }
+  },
+  {
+   "id": "fleurs_12",
+   "tur": "x->h",
+   "soz_idx": 12,
+   "soz_togri": "xaritasi",
+   "soz_buzuq": "haritasi",
+   "togri": {
+    "mean_logpost": -0.2169,
+    "path_norm": -0.1037,
+    "margin": 3.8648,
+    "blank_ratio": 0.68
+   },
+   "buzuq": {
+    "mean_logpost": -0.1444,
+    "path_norm": -0.0804,
+    "margin": 4.0099,
+    "blank_ratio": 0.68
+   },
+   "nc_soz": "qaramay",
+   "nc_togri": {
+    "mean_logpost": -0.9467,
+    "path_norm": -0.4765,
+    "margin": 3.5258,
+    "blank_ratio": 0.5
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.9467,
+    "path_norm": -0.4765,
+    "margin": 3.5258,
+    "blank_ratio": 0.5
+   }
+  },
+  {
+   "id": "fleurs_12",
+   "tur": "h->x",
+   "soz_idx": 4,
+   "soz_togri": "hujjat",
+   "soz_buzuq": "xujjat",
+   "togri": {
+    "mean_logpost": -0.0331,
+    "path_norm": -0.0437,
+    "margin": 4.7453,
+    "blank_ratio": 0.6842
+   },
+   "buzuq": {
+    "mean_logpost": -0.5823,
+    "path_norm": -0.2171,
+    "margin": 3.6469,
+    "blank_ratio": 0.6842
+   },
+   "nc_soz": "emas",
+   "nc_togri": {
+    "mean_logpost": -0.0676,
+    "path_norm": -0.0209,
+    "margin": 6.6804,
+    "blank_ratio": 0.6923
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0676,
+    "path_norm": -0.0209,
+    "margin": 6.6804,
+    "blank_ratio": 0.6923
+   }
+  },
+  {
+   "id": "fleurs_12",
+   "tur": "o‘->o",
+   "soz_idx": 2,
+   "soz_togri": "to‘g‘ri",
+   "soz_buzuq": "tog‘ri",
+   "togri": {
+    "mean_logpost": -0.0443,
+    "path_norm": -0.0551,
+    "margin": 7.0548,
+    "blank_ratio": 0.375
+   },
+   "buzuq": {
+    "mean_logpost": -0.0436,
+    "path_norm": -0.4927,
+    "margin": 6.8519,
+    "blank_ratio": 0.5
+   },
+   "nc_soz": "emas",
+   "nc_togri": {
+    "mean_logpost": -0.0676,
+    "path_norm": -0.0209,
+    "margin": 6.6804,
+    "blank_ratio": 0.6923
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0676,
+    "path_norm": -0.0209,
+    "margin": 6.6804,
+    "blank_ratio": 0.6923
+   }
+  },
+  {
+   "id": "fleurs_12",
+   "tur": "g‘->g",
+   "soz_idx": 2,
+   "soz_togri": "to‘g‘ri",
+   "soz_buzuq": "to‘gri",
+   "togri": {
+    "mean_logpost": -0.0443,
+    "path_norm": -0.0551,
+    "margin": 7.0548,
+    "blank_ratio": 0.375
+   },
+   "buzuq": {
+    "mean_logpost": -0.0113,
+    "path_norm": -0.4271,
+    "margin": 7.1559,
+    "blank_ratio": 0.5625
+   },
+   "nc_soz": "yozilgan",
+   "nc_togri": {
+    "mean_logpost": -0.0195,
+    "path_norm": -0.0082,
+    "margin": 7.0489,
+    "blank_ratio": 0.64
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0195,
+    "path_norm": -0.0082,
+    "margin": 7.0489,
+    "blank_ratio": 0.64
+   }
+  },
+  {
+   "id": "fleurs_12",
+   "tur": "belgi_tushirish",
+   "soz_idx": 3,
+   "soz_togri": "emas",
+   "soz_buzuq": "eas",
+   "togri": {
+    "mean_logpost": -0.0267,
+    "path_norm": -0.0069,
+    "margin": 5.0145,
+    "blank_ratio": 0.75
+   },
+   "buzuq": {
+    "mean_logpost": -0.0353,
+    "path_norm": -0.6268,
+    "margin": 3.6241,
+    "blank_ratio": 0.8125
+   },
+   "nc_soz": "xaritasi",
+   "nc_togri": {
+    "mean_logpost": -0.2169,
+    "path_norm": -0.1037,
+    "margin": 3.8648,
+    "blank_ratio": 0.68
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.2169,
+    "path_norm": -0.1037,
+    "margin": 3.8648,
+    "blank_ratio": 0.68
+   }
+  },
+  {
+   "id": "fleurs_13",
+   "tur": "q->k",
+   "soz_idx": 20,
+   "soz_togri": "sotiq",
+   "soz_buzuq": "sotik",
+   "togri": {
+    "mean_logpost": -0.002,
+    "path_norm": -0.0047,
+    "margin": 7.1425,
+    "blank_ratio": 0.7619
+   },
+   "buzuq": {
+    "mean_logpost": -1.5301,
+    "path_norm": -0.3685,
+    "margin": 4.0863,
+    "blank_ratio": 0.7619
+   },
+   "nc_soz": "u",
+   "nc_togri": {
+    "mean_logpost": -0.0034,
+    "path_norm": -0.0034,
+    "margin": 8.1514,
+    "blank_ratio": 0.0
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0034,
+    "path_norm": -0.0034,
+    "margin": 8.1514,
+    "blank_ratio": 0.0
+   }
+  },
+  {
+   "id": "fleurs_13",
+   "tur": "k->q",
+   "soz_idx": 24,
+   "soz_togri": "muhokama",
+   "soz_buzuq": "muhoqama",
+   "togri": {
+    "mean_logpost": -0.0081,
+    "path_norm": -0.0034,
+    "margin": 6.5576,
+    "blank_ratio": 0.6923
+   },
+   "buzuq": {
+    "mean_logpost": -0.9687,
+    "path_norm": -0.299,
+    "margin": 4.7603,
+    "blank_ratio": 0.6923
+   },
+   "nc_soz": "u",
+   "nc_togri": {
+    "mean_logpost": -0.0034,
+    "path_norm": -0.0034,
+    "margin": 8.1514,
+    "blank_ratio": 0.0
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0034,
+    "path_norm": -0.0034,
+    "margin": 8.1514,
+    "blank_ratio": 0.0
+   }
+  },
+  {
+   "id": "fleurs_13",
+   "tur": "h->x",
+   "soz_idx": 11,
+   "soz_togri": "hamda",
+   "soz_buzuq": "xamda",
+   "togri": {
+    "mean_logpost": -0.0012,
+    "path_norm": -0.0005,
+    "margin": 8.2109,
+    "blank_ratio": 0.7368
+   },
+   "buzuq": {
+    "mean_logpost": -1.3004,
+    "path_norm": -0.3424,
+    "margin": 5.6125,
+    "blank_ratio": 0.7368
+   },
+   "nc_soz": "kutib",
+   "nc_togri": {
+    "mean_logpost": -0.0801,
+    "path_norm": -0.0365,
+    "margin": 6.5754,
+    "blank_ratio": 0.5455
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0801,
+    "path_norm": -0.0365,
+    "margin": 6.5754,
+    "blank_ratio": 0.5455
+   }
+  },
+  {
+   "id": "fleurs_13",
+   "tur": "belgi_tushirish",
+   "soz_idx": 24,
+   "soz_togri": "muhokama",
+   "soz_buzuq": "muhoama",
+   "togri": {
+    "mean_logpost": -0.0081,
+    "path_norm": -0.0034,
+    "margin": 6.5576,
+    "blank_ratio": 0.6923
+   },
+   "buzuq": {
+    "mean_logpost": -0.0088,
+    "path_norm": -0.4107,
+    "margin": 6.5383,
+    "blank_ratio": 0.7308
+   },
+   "nc_soz": "va",
+   "nc_togri": {
+    "mean_logpost": -0.0021,
+    "path_norm": -0.0012,
+    "margin": 8.5071,
+    "blank_ratio": 0.5
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0021,
+    "path_norm": -0.0012,
+    "margin": 8.5071,
+    "blank_ratio": 0.5
+   }
+  },
+  {
+   "id": "fleurs_14",
+   "tur": "q->k",
+   "soz_idx": 8,
+   "soz_togri": "ko‘proq",
+   "soz_buzuq": "ko‘prok",
+   "togri": {
+    "mean_logpost": -0.0182,
+    "path_norm": -0.0141,
+    "margin": 6.9125,
+    "blank_ratio": 0.5556
+   },
+   "buzuq": {
+    "mean_logpost": -0.9936,
+    "path_norm": -0.3934,
+    "margin": 5.2055,
+    "blank_ratio": 0.5556
+   },
+   "nc_soz": "ovozli",
+   "nc_togri": {
+    "mean_logpost": -0.7443,
+    "path_norm": -0.307,
+    "margin": 3.383,
+    "blank_ratio": 0.6471
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.7443,
+    "path_norm": -0.307,
+    "margin": 3.383,
+    "blank_ratio": 0.6471
+   }
+  },
+  {
+   "id": "fleurs_14",
+   "tur": "k->q",
+   "soz_idx": 10,
+   "soz_togri": "o‘kirib",
+   "soz_buzuq": "o‘qirib",
+   "togri": {
+    "mean_logpost": -0.0768,
+    "path_norm": -0.057,
+    "margin": 5.9416,
+    "blank_ratio": 0.5
+   },
+   "buzuq": {
+    "mean_logpost": -0.4789,
+    "path_norm": -0.2329,
+    "margin": 5.2379,
+    "blank_ratio": 0.5
+   },
+   "nc_soz": "aksincha",
+   "nc_togri": {
+    "mean_logpost": -0.0234,
+    "path_norm": -0.0106,
+    "margin": 6.279,
+    "blank_ratio": 0.55
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0234,
+    "path_norm": -0.0106,
+    "margin": 6.279,
+    "blank_ratio": 0.55
+   }
+  },
+  {
+   "id": "fleurs_14",
+   "tur": "x->h",
+   "soz_idx": 15,
+   "soz_togri": "o‘xshaydi",
+   "soz_buzuq": "o‘hshaydi",
+   "togri": {
+    "mean_logpost": -0.0032,
+    "path_norm": -0.0289,
+    "margin": 8.5838,
+    "blank_ratio": 0.56
+   },
+   "buzuq": {
+    "mean_logpost": -0.8507,
+    "path_norm": -0.3341,
+    "margin": 7.3506,
+    "blank_ratio": 0.56
+   },
+   "nc_soz": "ovozli",
+   "nc_togri": {
+    "mean_logpost": -0.7443,
+    "path_norm": -0.307,
+    "margin": 3.383,
+    "blank_ratio": 0.6471
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.7443,
+    "path_norm": -0.307,
+    "margin": 3.383,
+    "blank_ratio": 0.6471
+   }
+  },
+  {
+   "id": "fleurs_14",
+   "tur": "h->x",
+   "soz_idx": 15,
+   "soz_togri": "o‘xshaydi",
+   "soz_buzuq": "o‘xsxaydi",
+   "togri": {
+    "mean_logpost": -0.0032,
+    "path_norm": -0.0289,
+    "margin": 8.5838,
+    "blank_ratio": 0.56
+   },
+   "buzuq": {
+    "mean_logpost": -1.0855,
+    "path_norm": -0.7009,
+    "margin": 6.6628,
+    "blank_ratio": 0.6
+   },
+   "nc_soz": "to‘liq",
+   "nc_togri": {
+    "mean_logpost": -0.3709,
+    "path_norm": -0.1752,
+    "margin": 5.0052,
+    "blank_ratio": 0.5714
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.3709,
+    "path_norm": -0.1752,
+    "margin": 5.0052,
+    "blank_ratio": 0.5714
+   }
+  },
+  {
+   "id": "fleurs_14",
+   "tur": "o‘->o",
+   "soz_idx": 0,
+   "soz_togri": "yo‘lbars",
+   "soz_buzuq": "yolbars",
+   "togri": {
+    "mean_logpost": -0.0515,
+    "path_norm": -0.0779,
+    "margin": 6.805,
+    "blank_ratio": 0.5714
+   },
+   "buzuq": {
+    "mean_logpost": -0.0491,
+    "path_norm": -0.3936,
+    "margin": 6.4141,
+    "blank_ratio": 0.6667
+   },
+   "nc_soz": "so‘zlardan",
+   "nc_togri": {
+    "mean_logpost": -0.0502,
+    "path_norm": -0.0534,
+    "margin": 7.4052,
+    "blank_ratio": 0.5417
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0502,
+    "path_norm": -0.0534,
+    "margin": 7.4052,
+    "blank_ratio": 0.5417
+   }
+  },
+  {
+   "id": "fleurs_14",
+   "tur": "belgi_tushirish",
+   "soz_idx": 1,
+   "soz_togri": "na‘rasi",
+   "soz_buzuq": "na‘rai",
+   "togri": {
+    "mean_logpost": -1.4718,
+    "path_norm": -0.5474,
+    "margin": 3.1526,
+    "blank_ratio": 0.6316
+   },
+   "buzuq": {
+    "mean_logpost": -1.7016,
+    "path_norm": -1.0677,
+    "margin": 3.2854,
+    "blank_ratio": 0.6842
+   },
+   "nc_soz": "jumlaga",
+   "nc_togri": {
+    "mean_logpost": -0.0041,
+    "path_norm": -0.0028,
+    "margin": 6.2377,
+    "blank_ratio": 0.6111
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0041,
+    "path_norm": -0.0028,
+    "margin": 6.2377,
+    "blank_ratio": 0.6111
+   }
+  },
+  {
+   "id": "fleurs_15",
+   "tur": "q->k",
+   "soz_idx": 7,
+   "soz_togri": "vaqtida",
+   "soz_buzuq": "vaktida",
+   "togri": {
+    "mean_logpost": -0.0103,
+    "path_norm": -0.0034,
+    "margin": 6.9444,
+    "blank_ratio": 0.7083
+   },
+   "buzuq": {
+    "mean_logpost": -0.9174,
+    "path_norm": -0.2679,
+    "margin": 5.5762,
+    "blank_ratio": 0.7083
+   },
+   "nc_soz": "keldi",
+   "nc_togri": {
+    "mean_logpost": -0.0022,
+    "path_norm": -0.0015,
+    "margin": 8.0832,
+    "blank_ratio": 0.7368
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0022,
+    "path_norm": -0.0015,
+    "margin": 8.0832,
+    "blank_ratio": 0.7368
+   }
+  },
+  {
+   "id": "fleurs_15",
+   "tur": "k->q",
+   "soz_idx": 20,
+   "soz_togri": "keldi",
+   "soz_buzuq": "qeldi",
+   "togri": {
+    "mean_logpost": -0.0022,
+    "path_norm": -0.0015,
+    "margin": 8.0832,
+    "blank_ratio": 0.7368
+   },
+   "buzuq": {
+    "mean_logpost": -1.778,
+    "path_norm": -0.4688,
+    "margin": 4.5315,
+    "blank_ratio": 0.7368
+   },
+   "nc_soz": "tomonidan",
+   "nc_togri": {
+    "mean_logpost": -0.0027,
+    "path_norm": -0.0016,
+    "margin": 8.2746,
+    "blank_ratio": 0.7188
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0027,
+    "path_norm": -0.0016,
+    "margin": 8.2746,
+    "blank_ratio": 0.7188
+   }
+  },
+  {
+   "id": "fleurs_15",
+   "tur": "h->x",
+   "soz_idx": 1,
+   "soz_togri": "harakati",
+   "soz_buzuq": "xarakati",
+   "togri": {
+    "mean_logpost": -0.0041,
+    "path_norm": -0.0015,
+    "margin": 7.9872,
+    "blank_ratio": 0.7241
+   },
+   "buzuq": {
+    "mean_logpost": -0.4972,
+    "path_norm": -0.1375,
+    "margin": 7.0011,
+    "blank_ratio": 0.7241
+   },
+   "nc_soz": "olib",
+   "nc_togri": {
+    "mean_logpost": -0.0215,
+    "path_norm": -0.0196,
+    "margin": 8.4327,
+    "blank_ratio": 0.5455
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0215,
+    "path_norm": -0.0196,
+    "margin": 8.4327,
+    "blank_ratio": 0.5455
+   }
+  },
+  {
+   "id": "fleurs_15",
+   "tur": "o‘->o",
+   "soz_idx": 18,
+   "soz_togri": "o‘ldirilishiga",
+   "soz_buzuq": "oldirilishiga",
+   "togri": {
+    "mean_logpost": -0.0068,
+    "path_norm": -0.0208,
+    "margin": 7.6678,
+    "blank_ratio": 0.5946
+   },
+   "buzuq": {
+    "mean_logpost": -0.0044,
+    "path_norm": -0.2164,
+    "margin": 7.4321,
+    "blank_ratio": 0.6486
+   },
+   "nc_soz": "tomonidan",
+   "nc_togri": {
+    "mean_logpost": -0.0027,
+    "path_norm": -0.0016,
+    "margin": 8.2746,
+    "blank_ratio": 0.7188
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0027,
+    "path_norm": -0.0016,
+    "margin": 8.2746,
+    "blank_ratio": 0.7188
+   }
+  },
+  {
+   "id": "fleurs_15",
+   "tur": "belgi_tushirish",
+   "soz_idx": 5,
+   "soz_togri": "uchun",
+   "soz_buzuq": "uhun",
+   "togri": {
+    "mean_logpost": -0.0573,
+    "path_norm": -0.0516,
+    "margin": 8.5151,
+    "blank_ratio": 0.3636
+   },
+   "buzuq": {
+    "mean_logpost": -0.7386,
+    "path_norm": -0.7803,
+    "margin": 6.2251,
+    "blank_ratio": 0.3636
+   },
+   "nc_soz": "o‘ldirilishiga",
+   "nc_togri": {
+    "mean_logpost": -0.0068,
+    "path_norm": -0.0208,
+    "margin": 7.6678,
+    "blank_ratio": 0.5946
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0068,
+    "path_norm": -0.0208,
+    "margin": 7.6678,
+    "blank_ratio": 0.5946
+   }
+  },
+  {
+   "id": "fleurs_16",
+   "tur": "k->q",
+   "soz_idx": 7,
+   "soz_togri": "ikkala",
+   "soz_buzuq": "iqkala",
+   "togri": {
+    "mean_logpost": -0.0876,
+    "path_norm": -0.0486,
+    "margin": 5.4816,
+    "blank_ratio": 0.5625
+   },
+   "buzuq": {
+    "mean_logpost": -1.5964,
+    "path_norm": -0.6617,
+    "margin": 2.4469,
+    "blank_ratio": 0.625
+   },
+   "nc_soz": "variatsiyalarni",
+   "nc_togri": {
+    "mean_logpost": -0.2562,
+    "path_norm": -0.1371,
+    "margin": 4.9905,
+    "blank_ratio": 0.561
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.2562,
+    "path_norm": -0.1371,
+    "margin": 4.9905,
+    "blank_ratio": 0.561
+   }
+  },
+  {
+   "id": "fleurs_16",
+   "tur": "h->x",
+   "soz_idx": 11,
+   "soz_togri": "aralashtiradi",
+   "soz_buzuq": "aralasxtiradi",
+   "togri": {
+    "mean_logpost": -0.0137,
+    "path_norm": -0.0096,
+    "margin": 7.9269,
+    "blank_ratio": 0.6111
+   },
+   "buzuq": {
+    "mean_logpost": -0.7278,
+    "path_norm": -0.3029,
+    "margin": 6.6306,
+    "blank_ratio": 0.6389
+   },
+   "nc_soz": "va",
+   "nc_togri": {
+    "mean_logpost": -0.0979,
+    "path_norm": -0.0513,
+    "margin": 4.8154,
+    "blank_ratio": 0.5
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0979,
+    "path_norm": -0.0513,
+    "margin": 4.8154,
+    "blank_ratio": 0.5
+   }
+  },
+  {
+   "id": "fleurs_16",
+   "tur": "o‘->o",
+   "soz_idx": 9,
+   "soz_togri": "o‘rtasidagi",
+   "soz_buzuq": "ortasidagi",
+   "togri": {
+    "mean_logpost": -0.0181,
+    "path_norm": -0.0153,
+    "margin": 7.4989,
+    "blank_ratio": 0.625
+   },
+   "buzuq": {
+    "mean_logpost": -0.0163,
+    "path_norm": -0.1195,
+    "margin": 7.3664,
+    "blank_ratio": 0.6562
+   },
+   "nc_soz": "ikkala",
+   "nc_togri": {
+    "mean_logpost": -0.0876,
+    "path_norm": -0.0486,
+    "margin": 5.4816,
+    "blank_ratio": 0.5625
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0876,
+    "path_norm": -0.0486,
+    "margin": 5.4816,
+    "blank_ratio": 0.5625
+   }
+  },
+  {
+   "id": "fleurs_16",
+   "tur": "belgi_tushirish",
+   "soz_idx": 10,
+   "soz_togri": "variatsiyalarni",
+   "soz_buzuq": "variatsialarni",
+   "togri": {
+    "mean_logpost": -0.2562,
+    "path_norm": -0.1371,
+    "margin": 4.9905,
+    "blank_ratio": 0.561
+   },
+   "buzuq": {
+    "mean_logpost": -0.2665,
+    "path_norm": -0.2522,
+    "margin": 4.9523,
+    "blank_ratio": 0.6098
+   },
+   "nc_soz": "ikkala",
+   "nc_togri": {
+    "mean_logpost": -0.0876,
+    "path_norm": -0.0486,
+    "margin": 5.4816,
+    "blank_ratio": 0.5625
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0876,
+    "path_norm": -0.0486,
+    "margin": 5.4816,
+    "blank_ratio": 0.5625
+   }
+  },
+  {
+   "id": "fleurs_17",
+   "tur": "k->q",
+   "soz_idx": 1,
+   "soz_togri": "juftliklar",
+   "soz_buzuq": "juftliqlar",
+   "togri": {
+    "mean_logpost": -0.3182,
+    "path_norm": -0.1383,
+    "margin": 4.1705,
+    "blank_ratio": 0.6
+   },
+   "buzuq": {
+    "mean_logpost": -1.042,
+    "path_norm": -0.4278,
+    "margin": 2.8908,
+    "blank_ratio": 0.6
+   },
+   "nc_soz": "rejasini",
+   "nc_togri": {
+    "mean_logpost": -0.5631,
+    "path_norm": -0.2627,
+    "margin": 4.2852,
+    "blank_ratio": 0.6
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.5631,
+    "path_norm": -0.2627,
+    "margin": 4.2852,
+    "blank_ratio": 0.6
+   }
+  },
+  {
+   "id": "fleurs_17",
+   "tur": "h->x",
+   "soz_idx": 3,
+   "soz_togri": "uchun",
+   "soz_buzuq": "ucxun",
+   "togri": {
+    "mean_logpost": -0.5659,
+    "path_norm": -0.4222,
+    "margin": 4.1077,
+    "blank_ratio": 0.2857
+   },
+   "buzuq": {
+    "mean_logpost": -2.596,
+    "path_norm": -1.8723,
+    "margin": 0.1611,
+    "blank_ratio": 0.2857
+   },
+   "nc_soz": "olish",
+   "nc_togri": {
+    "mean_logpost": -0.0067,
+    "path_norm": -0.028,
+    "margin": 7.1498,
+    "blank_ratio": 0.375
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0067,
+    "path_norm": -0.028,
+    "margin": 7.1498,
+    "blank_ratio": 0.375
+   }
+  },
+  {
+   "id": "fleurs_17",
+   "tur": "belgi_tushirish",
+   "soz_idx": 8,
+   "soz_togri": "mumkin",
+   "soz_buzuq": "mukin",
+   "togri": {
+    "mean_logpost": -0.0022,
+    "path_norm": -0.0011,
+    "margin": 7.9698,
+    "blank_ratio": 0.6
+   },
+   "buzuq": {
+    "mean_logpost": -0.0023,
+    "path_norm": -0.5738,
+    "margin": 8.1103,
+    "blank_ratio": 0.6667
+   },
+   "nc_soz": "farzandlari",
+   "nc_togri": {
+    "mean_logpost": -0.7141,
+    "path_norm": -0.3725,
+    "margin": 3.6379,
+    "blank_ratio": 0.4348
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.7141,
+    "path_norm": -0.3725,
+    "margin": 3.6379,
+    "blank_ratio": 0.4348
+   }
+  },
+  {
+   "id": "fleurs_18",
+   "tur": "q->k",
+   "soz_idx": 4,
+   "soz_togri": "qorli",
+   "soz_buzuq": "korli",
+   "togri": {
+    "mean_logpost": -0.1495,
+    "path_norm": -0.2025,
+    "margin": 3.5018,
+    "blank_ratio": 0.6429
+   },
+   "buzuq": {
+    "mean_logpost": -1.2834,
+    "path_norm": -0.6074,
+    "margin": 1.234,
+    "blank_ratio": 0.6429
+   },
+   "nc_soz": "va",
+   "nc_togri": {
+    "mean_logpost": -0.0068,
+    "path_norm": -0.0046,
+    "margin": 6.486,
+    "blank_ratio": 0.3333
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0068,
+    "path_norm": -0.0046,
+    "margin": 6.486,
+    "blank_ratio": 0.3333
+   }
+  },
+  {
+   "id": "fleurs_18",
+   "tur": "k->q",
+   "soz_idx": 12,
+   "soz_togri": "harakati",
+   "soz_buzuq": "haraqati",
+   "togri": {
+    "mean_logpost": -0.2902,
+    "path_norm": -0.1291,
+    "margin": 6.0005,
+    "blank_ratio": 0.5556
+   },
+   "buzuq": {
+    "mean_logpost": -1.2308,
+    "path_norm": -0.5471,
+    "margin": 4.4357,
+    "blank_ratio": 0.5556
+   },
+   "nc_soz": "oddiy",
+   "nc_togri": {
+    "mean_logpost": -0.0488,
+    "path_norm": -0.3481,
+    "margin": 5.6343,
+    "blank_ratio": 0.881
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0488,
+    "path_norm": -0.3481,
+    "margin": 5.6343,
+    "blank_ratio": 0.881
+   }
+  },
+  {
+   "id": "fleurs_18",
+   "tur": "h->x",
+   "soz_idx": 9,
+   "soz_togri": "holatdir",
+   "soz_buzuq": "xolatdir",
+   "togri": {
+    "mean_logpost": -0.051,
+    "path_norm": -0.0168,
+    "margin": 5.5154,
+    "blank_ratio": 0.7241
+   },
+   "buzuq": {
+    "mean_logpost": -0.5228,
+    "path_norm": -0.1469,
+    "margin": 4.5719,
+    "blank_ratio": 0.7241
+   },
+   "nc_soz": "tomondan",
+   "nc_togri": {
+    "mean_logpost": -1.4348,
+    "path_norm": -0.6766,
+    "margin": 3.3197,
+    "blank_ratio": 0.5294
+   },
+   "nc_buzuq": {
+    "mean_logpost": -1.4348,
+    "path_norm": -0.6766,
+    "margin": 3.3197,
+    "blank_ratio": 0.5294
+   }
+  },
+  {
+   "id": "fleurs_18",
+   "tur": "o‘->o",
+   "soz_idx": 6,
+   "soz_togri": "ko‘pchilik",
+   "soz_buzuq": "kopchilik",
+   "togri": {
+    "mean_logpost": -2.7007,
+    "path_norm": -1.7278,
+    "margin": 3.3188,
+    "blank_ratio": 0.3125
+   },
+   "buzuq": {
+    "mean_logpost": -2.9913,
+    "path_norm": -2.1434,
+    "margin": 2.1294,
+    "blank_ratio": 0.4375
+   },
+   "nc_soz": "va",
+   "nc_togri": {
+    "mean_logpost": -0.0049,
+    "path_norm": -0.0038,
+    "margin": 6.2873,
+    "blank_ratio": 0.5
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0049,
+    "path_norm": -0.0038,
+    "margin": 6.2873,
+    "blank_ratio": 0.5
+   }
+  },
+  {
+   "id": "fleurs_18",
+   "tur": "belgi_tushirish",
+   "soz_idx": 5,
+   "soz_togri": "sharoitlar",
+   "soz_buzuq": "saroitlar",
+   "togri": {
+    "mean_logpost": -1.1782,
+    "path_norm": -0.6199,
+    "margin": 3.7039,
+    "blank_ratio": 0.5
+   },
+   "buzuq": {
+    "mean_logpost": -1.309,
+    "path_norm": -0.9802,
+    "margin": 3.0225,
+    "blank_ratio": 0.55
+   },
+   "nc_soz": "va",
+   "nc_togri": {
+    "mean_logpost": -0.0049,
+    "path_norm": -0.0038,
+    "margin": 6.2873,
+    "blank_ratio": 0.5
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0049,
+    "path_norm": -0.0038,
+    "margin": 6.2873,
+    "blank_ratio": 0.5
+   }
+  },
+  {
+   "id": "fleurs_19",
+   "tur": "q->k",
+   "soz_idx": 14,
+   "soz_togri": "qoldi",
+   "soz_buzuq": "koldi",
+   "togri": {
+    "mean_logpost": -0.0015,
+    "path_norm": -0.0006,
+    "margin": 8.1925,
+    "blank_ratio": 0.6875
+   },
+   "buzuq": {
+    "mean_logpost": -1.2395,
+    "path_norm": -0.3875,
+    "margin": 5.7164,
+    "blank_ratio": 0.6875
+   },
+   "nc_soz": "saylovlarida",
+   "nc_togri": {
+    "mean_logpost": -0.2096,
+    "path_norm": -0.1405,
+    "margin": 6.1674,
+    "blank_ratio": 0.5714
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.2096,
+    "path_norm": -0.1405,
+    "margin": 6.1674,
+    "blank_ratio": 0.5714
+   }
+  },
+  {
+   "id": "fleurs_19",
+   "tur": "k->q",
+   "soz_idx": 11,
+   "soz_togri": "aksariyat",
+   "soz_buzuq": "aqsariyat",
+   "togri": {
+    "mean_logpost": -0.014,
+    "path_norm": -0.0313,
+    "margin": 6.0582,
+    "blank_ratio": 0.64
+   },
+   "buzuq": {
+    "mean_logpost": -0.3206,
+    "path_norm": -0.1417,
+    "margin": 5.4451,
+    "blank_ratio": 0.64
+   },
+   "nc_soz": "qoldi",
+   "nc_togri": {
+    "mean_logpost": -0.0015,
+    "path_norm": -0.0006,
+    "margin": 8.1925,
+    "blank_ratio": 0.6875
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0015,
+    "path_norm": -0.0006,
+    "margin": 8.1925,
+    "blank_ratio": 0.6875
+   }
+  },
+  {
+   "id": "fleurs_19",
+   "tur": "x->h",
+   "soz_idx": 5,
+   "soz_togri": "xalq",
+   "soz_buzuq": "halq",
+   "togri": {
+    "mean_logpost": -0.1896,
+    "path_norm": -0.15,
+    "margin": 5.5126,
+    "blank_ratio": 0.4444
+   },
+   "buzuq": {
+    "mean_logpost": -0.6265,
+    "path_norm": -0.3441,
+    "margin": 4.8135,
+    "blank_ratio": 0.4444
+   },
+   "nc_soz": "qoldi",
+   "nc_togri": {
+    "mean_logpost": -0.0015,
+    "path_norm": -0.0006,
+    "margin": 8.1925,
+    "blank_ratio": 0.6875
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0015,
+    "path_norm": -0.0006,
+    "margin": 8.1925,
+    "blank_ratio": 0.6875
+   }
+  },
+  {
+   "id": "fleurs_19",
+   "tur": "h->x",
+   "soz_idx": 6,
+   "soz_togri": "tashkiloti",
+   "soz_buzuq": "tasxkiloti",
+   "togri": {
+    "mean_logpost": -0.0072,
+    "path_norm": -0.0033,
+    "margin": 6.6358,
+    "blank_ratio": 0.7059
+   },
+   "buzuq": {
+    "mean_logpost": -0.8985,
+    "path_norm": -0.2655,
+    "margin": 4.8532,
+    "blank_ratio": 0.7059
+   },
+   "nc_soz": "parlament",
+   "nc_togri": {
+    "mean_logpost": -0.1553,
+    "path_norm": -0.0696,
+    "margin": 4.2611,
+    "blank_ratio": 0.6296
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.1553,
+    "path_norm": -0.0696,
+    "margin": 4.2611,
+    "blank_ratio": 0.6296
+   }
+  },
+  {
+   "id": "fleurs_19",
+   "tur": "o‘->o",
+   "soz_idx": 12,
+   "soz_togri": "o‘rinlarni",
+   "soz_buzuq": "orinlarni",
+   "togri": {
+    "mean_logpost": -0.4505,
+    "path_norm": -0.243,
+    "margin": 4.6234,
+    "blank_ratio": 0.4762
+   },
+   "buzuq": {
+    "mean_logpost": -0.4796,
+    "path_norm": -0.3189,
+    "margin": 4.3422,
+    "blank_ratio": 0.5238
+   },
+   "nc_soz": "afrika",
+   "nc_togri": {
+    "mean_logpost": -0.0355,
+    "path_norm": -0.0242,
+    "margin": 5.0832,
+    "blank_ratio": 0.5294
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0355,
+    "path_norm": -0.0242,
+    "margin": 5.0832,
+    "blank_ratio": 0.5294
+   }
+  },
+  {
+   "id": "fleurs_19",
+   "tur": "g‘->g",
+   "soz_idx": 7,
+   "soz_togri": "jg‘axt",
+   "soz_buzuq": "jgaxt",
+   "togri": {
+    "mean_logpost": -0.0517,
+    "path_norm": -0.1308,
+    "margin": 5.9624,
+    "blank_ratio": 0.7333
+   },
+   "buzuq": {
+    "mean_logpost": -0.0356,
+    "path_norm": -0.3594,
+    "margin": 5.1746,
+    "blank_ratio": 0.8333
+   },
+   "nc_soz": "partiya",
+   "nc_togri": {
+    "mean_logpost": -0.0034,
+    "path_norm": -0.0025,
+    "margin": 7.8227,
+    "blank_ratio": 0.5556
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0034,
+    "path_norm": -0.0025,
+    "margin": 7.8227,
+    "blank_ratio": 0.5556
+   }
+  },
+  {
+   "id": "fleurs_19",
+   "tur": "belgi_tushirish",
+   "soz_idx": 12,
+   "soz_togri": "o‘rinlarni",
+   "soz_buzuq": "o‘rinlani",
+   "togri": {
+    "mean_logpost": -0.4505,
+    "path_norm": -0.243,
+    "margin": 4.6234,
+    "blank_ratio": 0.4762
+   },
+   "buzuq": {
+    "mean_logpost": -0.3691,
+    "path_norm": -0.2214,
+    "margin": 5.0435,
+    "blank_ratio": 0.5238
+   },
+   "nc_soz": "saylovlarida",
+   "nc_togri": {
+    "mean_logpost": -0.2096,
+    "path_norm": -0.1405,
+    "margin": 6.1674,
+    "blank_ratio": 0.5714
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.2096,
+    "path_norm": -0.1405,
+    "margin": 6.1674,
+    "blank_ratio": 0.5714
+   }
+  },
+  {
+   "id": "fleurs_20",
+   "tur": "q->k",
+   "soz_idx": 18,
+   "soz_togri": "tuproq",
+   "soz_buzuq": "tuprok",
+   "togri": {
+    "mean_logpost": -0.0026,
+    "path_norm": -0.0014,
+    "margin": 7.3456,
+    "blank_ratio": 0.6471
+   },
+   "buzuq": {
+    "mean_logpost": -1.1651,
+    "path_norm": -0.4117,
+    "margin": 5.0207,
+    "blank_ratio": 0.6471
+   },
+   "nc_soz": "aytib",
+   "nc_togri": {
+    "mean_logpost": -0.0427,
+    "path_norm": -0.022,
+    "margin": 6.1352,
+    "blank_ratio": 0.6667
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0427,
+    "path_norm": -0.022,
+    "margin": 6.1352,
+    "blank_ratio": 0.6667
+   }
+  },
+  {
+   "id": "fleurs_20",
+   "tur": "k->q",
+   "soz_idx": 11,
+   "soz_togri": "tashkil",
+   "soz_buzuq": "tashqil",
+   "togri": {
+    "mean_logpost": -0.2348,
+    "path_norm": -0.1179,
+    "margin": 5.6274,
+    "blank_ratio": 0.5333
+   },
+   "buzuq": {
+    "mean_logpost": -0.0786,
+    "path_norm": -0.045,
+    "margin": 5.9399,
+    "blank_ratio": 0.5333
+   },
+   "nc_soz": "aytib",
+   "nc_togri": {
+    "mean_logpost": -0.0427,
+    "path_norm": -0.022,
+    "margin": 6.1352,
+    "blank_ratio": 0.6667
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0427,
+    "path_norm": -0.022,
+    "margin": 6.1352,
+    "blank_ratio": 0.6667
+   }
+  },
+  {
+   "id": "fleurs_20",
+   "tur": "h->x",
+   "soz_idx": 10,
+   "soz_togri": "aralashmasidan",
+   "soz_buzuq": "aralasxmasidan",
+   "togri": {
+    "mean_logpost": -0.7272,
+    "path_norm": -0.4102,
+    "margin": 5.0305,
+    "blank_ratio": 0.5
+   },
+   "buzuq": {
+    "mean_logpost": -1.3915,
+    "path_norm": -0.799,
+    "margin": 3.759,
+    "blank_ratio": 0.5312
+   },
+   "nc_soz": "ilgari",
+   "nc_togri": {
+    "mean_logpost": -0.1533,
+    "path_norm": -0.0639,
+    "margin": 5.7833,
+    "blank_ratio": 0.625
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.1533,
+    "path_norm": -0.0639,
+    "margin": 5.7833,
+    "blank_ratio": 0.625
+   }
+  },
+  {
+   "id": "fleurs_20",
+   "tur": "o‘->o",
+   "soz_idx": 4,
+   "soz_togri": "to‘rt",
+   "soz_buzuq": "tort",
+   "togri": {
+    "mean_logpost": -0.0644,
+    "path_norm": -0.0605,
+    "margin": 6.7165,
+    "blank_ratio": 0.5833
+   },
+   "buzuq": {
+    "mean_logpost": -0.0094,
+    "path_norm": -0.1537,
+    "margin": 6.2861,
+    "blank_ratio": 0.6667
+   },
+   "nc_soz": "olov",
+   "nc_togri": {
+    "mean_logpost": -0.3022,
+    "path_norm": -0.0866,
+    "margin": 4.8704,
+    "blank_ratio": 0.7143
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.3022,
+    "path_norm": -0.0866,
+    "margin": 4.8704,
+    "blank_ratio": 0.7143
+   }
+  },
+  {
+   "id": "fleurs_20",
+   "tur": "belgi_tushirish",
+   "soz_idx": 22,
+   "soz_togri": "olov",
+   "soz_buzuq": "oov",
+   "togri": {
+    "mean_logpost": -0.3022,
+    "path_norm": -0.0866,
+    "margin": 4.8704,
+    "blank_ratio": 0.7143
+   },
+   "buzuq": {
+    "mean_logpost": -0.4026,
+    "path_norm": -0.6649,
+    "margin": 3.4075,
+    "blank_ratio": 0.7857
+   },
+   "nc_soz": "aristotel",
+   "nc_togri": {
+    "mean_logpost": -0.9394,
+    "path_norm": -0.3262,
+    "margin": 2.5349,
+    "blank_ratio": 0.6667
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.9394,
+    "path_norm": -0.3262,
+    "margin": 2.5349,
+    "blank_ratio": 0.6667
+   }
+  },
+  {
+   "id": "fleurs_21",
+   "tur": "q->k",
+   "soz_idx": 8,
+   "soz_togri": "qiling",
+   "soz_buzuq": "kiling",
+   "togri": {
+    "mean_logpost": -0.0021,
+    "path_norm": -0.0251,
+    "margin": 8.2032,
+    "blank_ratio": 0.4545
+   },
+   "buzuq": {
+    "mean_logpost": -0.9826,
+    "path_norm": -0.5599,
+    "margin": 6.2423,
+    "blank_ratio": 0.4545
+   },
+   "nc_soz": "marshrutini",
+   "nc_togri": {
+    "mean_logpost": -0.1802,
+    "path_norm": -0.0827,
+    "margin": 5.8543,
+    "blank_ratio": 0.6071
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.1802,
+    "path_norm": -0.0827,
+    "margin": 5.8543,
+    "blank_ratio": 0.6071
+   }
+  },
+  {
+   "id": "fleurs_21",
+   "tur": "h->x",
+   "soz_idx": 0,
+   "soz_togri": "chang‘i",
+   "soz_buzuq": "cxang‘i",
+   "togri": {
+    "mean_logpost": -0.0527,
+    "path_norm": -0.046,
+    "margin": 5.9379,
+    "blank_ratio": 0.5882
+   },
+   "buzuq": {
+    "mean_logpost": -1.3536,
+    "path_norm": -0.5817,
+    "margin": 3.4223,
+    "blank_ratio": 0.5882
+   },
+   "nc_soz": "marshrutini",
+   "nc_togri": {
+    "mean_logpost": -0.1802,
+    "path_norm": -0.0827,
+    "margin": 5.8543,
+    "blank_ratio": 0.6071
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.1802,
+    "path_norm": -0.0827,
+    "margin": 5.8543,
+    "blank_ratio": 0.6071
+   }
+  },
+  {
+   "id": "fleurs_21",
+   "tur": "g‘->g",
+   "soz_idx": 0,
+   "soz_togri": "chang‘i",
+   "soz_buzuq": "changi",
+   "togri": {
+    "mean_logpost": -0.0527,
+    "path_norm": -0.046,
+    "margin": 5.9379,
+    "blank_ratio": 0.5882
+   },
+   "buzuq": {
+    "mean_logpost": -0.0456,
+    "path_norm": -0.1848,
+    "margin": 5.9346,
+    "blank_ratio": 0.6471
+   },
+   "nc_soz": "piyoda",
+   "nc_togri": {
+    "mean_logpost": -0.018,
+    "path_norm": -0.0092,
+    "margin": 6.9376,
+    "blank_ratio": 0.5714
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.018,
+    "path_norm": -0.0092,
+    "margin": 6.9376,
+    "blank_ratio": 0.5714
+   }
+  },
+  {
+   "id": "fleurs_21",
+   "tur": "belgi_tushirish",
+   "soz_idx": 2,
+   "soz_togri": "marshrutini",
+   "soz_buzuq": "marshrutii",
+   "togri": {
+    "mean_logpost": -0.1802,
+    "path_norm": -0.0827,
+    "margin": 5.8543,
+    "blank_ratio": 0.6071
+   },
+   "buzuq": {
+    "mean_logpost": -0.198,
+    "path_norm": -0.3062,
+    "margin": 5.6043,
+    "blank_ratio": 0.6429
+   },
+   "nc_soz": "tasavvur",
+   "nc_togri": {
+    "mean_logpost": -0.2583,
+    "path_norm": -0.2876,
+    "margin": 4.4589,
+    "blank_ratio": 0.6522
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.2583,
+    "path_norm": -0.2876,
+    "margin": 4.4589,
+    "blank_ratio": 0.6522
+   }
+  },
+  {
+   "id": "fleurs_22",
+   "tur": "q->k",
+   "soz_idx": 10,
+   "soz_togri": "ortiq",
+   "soz_buzuq": "ortik",
+   "togri": {
+    "mean_logpost": -0.0179,
+    "path_norm": -0.0057,
+    "margin": 6.2016,
+    "blank_ratio": 0.7059
+   },
+   "buzuq": {
+    "mean_logpost": -1.3788,
+    "path_norm": -0.4059,
+    "margin": 3.5697,
+    "blank_ratio": 0.7059
+   },
+   "nc_soz": "sher",
+   "nc_togri": {
+    "mean_logpost": -0.0177,
+    "path_norm": -0.0182,
+    "margin": 7.3538,
+    "blank_ratio": 0.5455
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0177,
+    "path_norm": -0.0182,
+    "margin": 7.3538,
+    "blank_ratio": 0.5455
+   }
+  },
+  {
+   "id": "fleurs_22",
+   "tur": "k->q",
+   "soz_idx": 7,
+   "soz_togri": "erkak",
+   "soz_buzuq": "erqak",
+   "togri": {
+    "mean_logpost": -0.0016,
+    "path_norm": -0.0035,
+    "margin": 8.2041,
+    "blank_ratio": 0.75
+   },
+   "buzuq": {
+    "mean_logpost": -1.9212,
+    "path_norm": -0.4834,
+    "margin": 4.9756,
+    "blank_ratio": 0.75
+   },
+   "nc_soz": "iborat",
+   "nc_togri": {
+    "mean_logpost": -0.5264,
+    "path_norm": -0.1266,
+    "margin": 5.0268,
+    "blank_ratio": 0.76
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.5264,
+    "path_norm": -0.1266,
+    "margin": 5.0268,
+    "blank_ratio": 0.76
+   }
+  },
+  {
+   "id": "fleurs_22",
+   "tur": "h->x",
+   "soz_idx": 11,
+   "soz_togri": "urg‘ochisi",
+   "soz_buzuq": "urg‘ocxisi",
+   "togri": {
+    "mean_logpost": -0.4264,
+    "path_norm": -0.2015,
+    "margin": 6.7294,
+    "blank_ratio": 0.6571
+   },
+   "buzuq": {
+    "mean_logpost": -1.3476,
+    "path_norm": -0.4968,
+    "margin": 5.1053,
+    "blank_ratio": 0.6857
+   },
+   "nc_soz": "voyaga",
+   "nc_togri": {
+    "mean_logpost": -0.834,
+    "path_norm": -0.2389,
+    "margin": 5.617,
+    "blank_ratio": 0.7143
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.834,
+    "path_norm": -0.2389,
+    "margin": 5.617,
+    "blank_ratio": 0.7143
+   }
+  },
+  {
+   "id": "fleurs_22",
+   "tur": "o‘->o",
+   "soz_idx": 1,
+   "soz_togri": "to‘dasi",
+   "soz_buzuq": "todasi",
+   "togri": {
+    "mean_logpost": -0.3018,
+    "path_norm": -0.1494,
+    "margin": 5.1798,
+    "blank_ratio": 0.7407
+   },
+   "buzuq": {
+    "mean_logpost": -0.3467,
+    "path_norm": -0.2769,
+    "margin": 4.5897,
+    "blank_ratio": 0.7778
+   },
+   "nc_soz": "ortiq",
+   "nc_togri": {
+    "mean_logpost": -0.0179,
+    "path_norm": -0.0057,
+    "margin": 6.2016,
+    "blank_ratio": 0.7059
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0179,
+    "path_norm": -0.0057,
+    "margin": 6.2016,
+    "blank_ratio": 0.7059
+   }
+  },
+  {
+   "id": "fleurs_22",
+   "tur": "g‘->g",
+   "soz_idx": 11,
+   "soz_togri": "urg‘ochisi",
+   "soz_buzuq": "urgochisi",
+   "togri": {
+    "mean_logpost": -0.4264,
+    "path_norm": -0.2015,
+    "margin": 6.7294,
+    "blank_ratio": 0.6571
+   },
+   "buzuq": {
+    "mean_logpost": -0.4646,
+    "path_norm": -0.3604,
+    "margin": 6.5736,
+    "blank_ratio": 0.7143
+   },
+   "nc_soz": "bittadan",
+   "nc_togri": {
+    "mean_logpost": -0.003,
+    "path_norm": -0.001,
+    "margin": 7.6378,
+    "blank_ratio": 0.6923
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.003,
+    "path_norm": -0.001,
+    "margin": 7.6378,
+    "blank_ratio": 0.6923
+   }
+  },
+  {
+   "id": "fleurs_22",
+   "tur": "belgi_tushirish",
+   "soz_idx": 10,
+   "soz_togri": "ortiq",
+   "soz_buzuq": "oriq",
+   "togri": {
+    "mean_logpost": -0.0179,
+    "path_norm": -0.0057,
+    "margin": 6.2016,
+    "blank_ratio": 0.7059
+   },
+   "buzuq": {
+    "mean_logpost": -0.0199,
+    "path_norm": -0.5614,
+    "margin": 6.5753,
+    "blank_ratio": 0.7647
+   },
+   "nc_soz": "yetgan",
+   "nc_togri": {
+    "mean_logpost": -0.0094,
+    "path_norm": -0.0033,
+    "margin": 7.9872,
+    "blank_ratio": 0.6667
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0094,
+    "path_norm": -0.0033,
+    "margin": 7.9872,
+    "blank_ratio": 0.6667
+   }
+  },
+  {
+   "id": "fleurs_23",
+   "tur": "q->k",
+   "soz_idx": 8,
+   "soz_togri": "qor",
+   "soz_buzuq": "kor",
+   "togri": {
+    "mean_logpost": -0.082,
+    "path_norm": -0.0542,
+    "margin": 7.3831,
+    "blank_ratio": 0.5556
+   },
+   "buzuq": {
+    "mean_logpost": -2.1665,
+    "path_norm": -0.749,
+    "margin": 4.2562,
+    "blank_ratio": 0.5556
+   },
+   "nc_soz": "hodisalari",
+   "nc_togri": {
+    "mean_logpost": -0.0246,
+    "path_norm": -0.0119,
+    "margin": 7.4127,
+    "blank_ratio": 0.6829
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0246,
+    "path_norm": -0.0119,
+    "margin": 7.4127,
+    "blank_ratio": 0.6829
+   }
+  },
+  {
+   "id": "fleurs_23",
+   "tur": "k->q",
+   "soz_idx": 7,
+   "soz_togri": "kuchli",
+   "soz_buzuq": "quchli",
+   "togri": {
+    "mean_logpost": -0.0096,
+    "path_norm": -0.0054,
+    "margin": 7.3104,
+    "blank_ratio": 0.5333
+   },
+   "buzuq": {
+    "mean_logpost": -1.2462,
+    "path_norm": -0.5001,
+    "margin": 5.1903,
+    "blank_ratio": 0.5333
+   },
+   "nc_soz": "o‘z",
+   "nc_togri": {
+    "mean_logpost": -0.0258,
+    "path_norm": -0.0254,
+    "margin": 8.2399,
+    "blank_ratio": 0.3333
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0258,
+    "path_norm": -0.0254,
+    "margin": 8.2399,
+    "blank_ratio": 0.3333
+   }
+  },
+  {
+   "id": "fleurs_23",
+   "tur": "h->x",
+   "soz_idx": 5,
+   "soz_togri": "havo",
+   "soz_buzuq": "xavo",
+   "togri": {
+    "mean_logpost": -1.6832,
+    "path_norm": -0.6749,
+    "margin": -0.2801,
+    "blank_ratio": 0.6
+   },
+   "buzuq": {
+    "mean_logpost": -1.7287,
+    "path_norm": -0.6931,
+    "margin": -0.3711,
+    "blank_ratio": 0.6
+   },
+   "nc_soz": "jiddiy",
+   "nc_togri": {
+    "mean_logpost": -0.0921,
+    "path_norm": -0.0433,
+    "margin": 6.5178,
+    "blank_ratio": 0.5882
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0921,
+    "path_norm": -0.0433,
+    "margin": 6.5178,
+    "blank_ratio": 0.5882
+   }
+  },
+  {
+   "id": "fleurs_23",
+   "tur": "o‘->o",
+   "soz_idx": 17,
+   "soz_togri": "o‘z",
+   "soz_buzuq": "oz",
+   "togri": {
+    "mean_logpost": -0.0258,
+    "path_norm": -0.0254,
+    "margin": 8.2399,
+    "blank_ratio": 0.3333
+   },
+   "buzuq": {
+    "mean_logpost": -0.0013,
+    "path_norm": -1.2181,
+    "margin": 7.5669,
+    "blank_ratio": 0.6667
+   },
+   "nc_soz": "qor",
+   "nc_togri": {
+    "mean_logpost": -0.002,
+    "path_norm": -0.0092,
+    "margin": 7.1586,
+    "blank_ratio": 0.7273
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.002,
+    "path_norm": -0.0092,
+    "margin": 7.1586,
+    "blank_ratio": 0.7273
+   }
+  },
+  {
+   "id": "fleurs_23",
+   "tur": "g‘->g",
+   "soz_idx": 9,
+   "soz_togri": "yog‘ishi",
+   "soz_buzuq": "yogishi",
+   "togri": {
+    "mean_logpost": -0.031,
+    "path_norm": -0.069,
+    "margin": 7.7499,
+    "blank_ratio": 0.6296
+   },
+   "buzuq": {
+    "mean_logpost": -0.0339,
+    "path_norm": -0.2414,
+    "margin": 7.6604,
+    "blank_ratio": 0.6667
+   },
+   "nc_soz": "ob",
+   "nc_togri": {
+    "mean_logpost": -0.0163,
+    "path_norm": -0.0067,
+    "margin": 5.7847,
+    "blank_ratio": 0.6
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0163,
+    "path_norm": -0.0067,
+    "margin": 5.7847,
+    "blank_ratio": 0.6
+   }
+  },
+  {
+   "id": "fleurs_23",
+   "tur": "belgi_tushirish",
+   "soz_idx": 3,
+   "soz_togri": "jiddiy",
+   "soz_buzuq": "jidiy",
+   "togri": {
+    "mean_logpost": -0.0921,
+    "path_norm": -0.0433,
+    "margin": 6.5178,
+    "blank_ratio": 0.5882
+   },
+   "buzuq": {
+    "mean_logpost": -0.1099,
+    "path_norm": -0.4241,
+    "margin": 6.3022,
+    "blank_ratio": 0.6471
+   },
+   "nc_soz": "havo",
+   "nc_togri": {
+    "mean_logpost": -1.6832,
+    "path_norm": -0.6749,
+    "margin": -0.2801,
+    "blank_ratio": 0.6
+   },
+   "nc_buzuq": {
+    "mean_logpost": -1.6832,
+    "path_norm": -0.6749,
+    "margin": -0.2801,
+    "blank_ratio": 0.6
+   }
+  },
+  {
+   "id": "fleurs_24",
+   "tur": "q->k",
+   "soz_idx": 8,
+   "soz_togri": "tarqatuvchi",
+   "soz_buzuq": "tarkatuvchi",
+   "togri": {
+    "mean_logpost": -0.1647,
+    "path_norm": -0.0879,
+    "margin": 5.7842,
+    "blank_ratio": 0.56
+   },
+   "buzuq": {
+    "mean_logpost": -0.75,
+    "path_norm": -0.3455,
+    "margin": 4.6137,
+    "blank_ratio": 0.56
+   },
+   "nc_soz": "to‘g‘on",
+   "nc_togri": {
+    "mean_logpost": -0.8453,
+    "path_norm": -2.1933,
+    "margin": 4.9365,
+    "blank_ratio": 0.7838
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.8453,
+    "path_norm": -2.1933,
+    "margin": 4.9365,
+    "blank_ratio": 0.7838
+   }
+  },
+  {
+   "id": "fleurs_24",
+   "tur": "k->q",
+   "soz_idx": 3,
+   "soz_togri": "keyin",
+   "soz_buzuq": "qeyin",
+   "togri": {
+    "mean_logpost": -0.5454,
+    "path_norm": -0.3897,
+    "margin": 5.5244,
+    "blank_ratio": 0.2857
+   },
+   "buzuq": {
+    "mean_logpost": -2.4379,
+    "path_norm": -1.7414,
+    "margin": 1.9517,
+    "blank_ratio": 0.2857
+   },
+   "nc_soz": "to‘xtadi",
+   "nc_togri": {
+    "mean_logpost": -0.004,
+    "path_norm": -0.0103,
+    "margin": 7.8585,
+    "blank_ratio": 0.5909
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.004,
+    "path_norm": -0.0103,
+    "margin": 7.8585,
+    "blank_ratio": 0.5909
+   }
+  },
+  {
+   "id": "fleurs_24",
+   "tur": "x->h",
+   "soz_idx": 12,
+   "soz_togri": "to‘xtadi",
+   "soz_buzuq": "to‘htadi",
+   "togri": {
+    "mean_logpost": -0.004,
+    "path_norm": -0.0103,
+    "margin": 7.8585,
+    "blank_ratio": 0.5909
+   },
+   "buzuq": {
+    "mean_logpost": -0.8478,
+    "path_norm": -0.3172,
+    "margin": 6.4653,
+    "blank_ratio": 0.5909
+   },
+   "nc_soz": "bo‘ylab",
+   "nc_togri": {
+    "mean_logpost": -0.034,
+    "path_norm": -0.0217,
+    "margin": 7.8118,
+    "blank_ratio": 0.4167
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.034,
+    "path_norm": -0.0217,
+    "margin": 7.8118,
+    "blank_ratio": 0.4167
+   }
+  },
+  {
+   "id": "fleurs_24",
+   "tur": "h->x",
+   "soz_idx": 7,
+   "soz_togri": "cho‘kindilarni",
+   "soz_buzuq": "cxo‘kindilarni",
+   "togri": {
+    "mean_logpost": -2.1362,
+    "path_norm": -1.4348,
+    "margin": 2.1694,
+    "blank_ratio": 0.4167
+   },
+   "buzuq": {
+    "mean_logpost": -2.8553,
+    "path_norm": -1.8543,
+    "margin": 0.8132,
+    "blank_ratio": 0.4167
+   },
+   "nc_soz": "keyin",
+   "nc_togri": {
+    "mean_logpost": -0.5454,
+    "path_norm": -0.3897,
+    "margin": 5.5244,
+    "blank_ratio": 0.2857
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.5454,
+    "path_norm": -0.3897,
+    "margin": 5.5244,
+    "blank_ratio": 0.2857
+   }
+  },
+  {
+   "id": "fleurs_24",
+   "tur": "o‘->o",
+   "soz_idx": 12,
+   "soz_togri": "to‘xtadi",
+   "soz_buzuq": "toxtadi",
+   "togri": {
+    "mean_logpost": -0.004,
+    "path_norm": -0.0103,
+    "margin": 7.8585,
+    "blank_ratio": 0.5909
+   },
+   "buzuq": {
+    "mean_logpost": -0.0025,
+    "path_norm": -0.4726,
+    "margin": 7.8984,
+    "blank_ratio": 0.6818
+   },
+   "nc_soz": "daryo",
+   "nc_togri": {
+    "mean_logpost": -0.0046,
+    "path_norm": -0.0254,
+    "margin": 7.0778,
+    "blank_ratio": 0.6429
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0046,
+    "path_norm": -0.0254,
+    "margin": 7.0778,
+    "blank_ratio": 0.6429
+   }
+  },
+  {
+   "id": "fleurs_24",
+   "tur": "g‘->g",
+   "soz_idx": 1,
+   "soz_togri": "to‘g‘on",
+   "soz_buzuq": "to‘gon",
+   "togri": {
+    "mean_logpost": -0.8453,
+    "path_norm": -2.1933,
+    "margin": 4.9365,
+    "blank_ratio": 0.7838
+   },
+   "buzuq": {
+    "mean_logpost": -0.5558,
+    "path_norm": -2.1259,
+    "margin": 5.3019,
+    "blank_ratio": 0.8108
+   },
+   "nc_soz": "tarqatuvchi",
+   "nc_togri": {
+    "mean_logpost": -0.1647,
+    "path_norm": -0.0879,
+    "margin": 5.7842,
+    "blank_ratio": 0.56
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.1647,
+    "path_norm": -0.0879,
+    "margin": 5.7842,
+    "blank_ratio": 0.56
+   }
+  },
+  {
+   "id": "fleurs_24",
+   "tur": "belgi_tushirish",
+   "soz_idx": 5,
+   "soz_togri": "daryo",
+   "soz_buzuq": "daro",
+   "togri": {
+    "mean_logpost": -0.0046,
+    "path_norm": -0.0254,
+    "margin": 7.0778,
+    "blank_ratio": 0.6429
+   },
+   "buzuq": {
+    "mean_logpost": -0.0016,
+    "path_norm": -0.5029,
+    "margin": 7.7358,
+    "blank_ratio": 0.7143
+   },
+   "nc_soz": "to‘g‘on",
+   "nc_togri": {
+    "mean_logpost": -0.8453,
+    "path_norm": -2.1933,
+    "margin": 4.9365,
+    "blank_ratio": 0.7838
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.8453,
+    "path_norm": -2.1933,
+    "margin": 4.9365,
+    "blank_ratio": 0.7838
+   }
+  },
+  {
+   "id": "fleurs_25",
+   "tur": "q->k",
+   "soz_idx": 19,
+   "soz_togri": "yo‘q",
+   "soz_buzuq": "yo‘k",
+   "togri": {
+    "mean_logpost": -0.0853,
+    "path_norm": -0.0757,
+    "margin": 6.8458,
+    "blank_ratio": 0.4444
+   },
+   "buzuq": {
+    "mean_logpost": -1.4313,
+    "path_norm": -0.6739,
+    "margin": 4.6923,
+    "blank_ratio": 0.4444
+   },
+   "nc_soz": "mehmonxonalarda",
+   "nc_togri": {
+    "mean_logpost": -0.1001,
+    "path_norm": -0.0358,
+    "margin": 7.1198,
+    "blank_ratio": 0.6939
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.1001,
+    "path_norm": -0.0358,
+    "margin": 7.1198,
+    "blank_ratio": 0.6939
+   }
+  },
+  {
+   "id": "fleurs_25",
+   "tur": "k->q",
+   "soz_idx": 7,
+   "soz_togri": "ko‘p",
+   "soz_buzuq": "qo‘p",
+   "togri": {
+    "mean_logpost": -0.032,
+    "path_norm": -0.0276,
+    "margin": 7.2202,
+    "blank_ratio": 0.4444
+   },
+   "buzuq": {
+    "mean_logpost": -2.0337,
+    "path_norm": -0.9172,
+    "margin": 4.0175,
+    "blank_ratio": 0.4444
+   },
+   "nc_soz": "taxtasi",
+   "nc_togri": {
+    "mean_logpost": -0.0209,
+    "path_norm": -0.0079,
+    "margin": 6.1677,
+    "blank_ratio": 0.72
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0209,
+    "path_norm": -0.0079,
+    "margin": 6.1677,
+    "blank_ratio": 0.72
+   }
+  },
+  {
+   "id": "fleurs_25",
+   "tur": "x->h",
+   "soz_idx": 16,
+   "soz_togri": "xonada",
+   "soz_buzuq": "honada",
+   "togri": {
+    "mean_logpost": -0.0066,
+    "path_norm": -0.0022,
+    "margin": 7.4602,
+    "blank_ratio": 0.6842
+   },
+   "buzuq": {
+    "mean_logpost": -0.5984,
+    "path_norm": -0.1891,
+    "margin": 6.2765,
+    "blank_ratio": 0.6842
+   },
+   "nc_soz": "beriladi",
+   "nc_togri": {
+    "mean_logpost": -0.0059,
+    "path_norm": -0.0029,
+    "margin": 8.1479,
+    "blank_ratio": 0.68
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0059,
+    "path_norm": -0.0029,
+    "margin": 8.1479,
+    "blank_ratio": 0.68
+   }
+  },
+  {
+   "id": "fleurs_25",
+   "tur": "h->x",
+   "soz_idx": 21,
+   "soz_togri": "ham",
+   "soz_buzuq": "xam",
+   "togri": {
+    "mean_logpost": -0.0072,
+    "path_norm": -0.0028,
+    "margin": 6.7153,
+    "blank_ratio": 0.625
+   },
+   "buzuq": {
+    "mean_logpost": -1.3291,
+    "path_norm": -0.4985,
+    "margin": 4.0715,
+    "blank_ratio": 0.625
+   },
+   "nc_soz": "yo‘q",
+   "nc_togri": {
+    "mean_logpost": -0.0853,
+    "path_norm": -0.0757,
+    "margin": 6.8458,
+    "blank_ratio": 0.4444
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0853,
+    "path_norm": -0.0757,
+    "margin": 6.8458,
+    "blank_ratio": 0.4444
+   }
+  },
+  {
+   "id": "fleurs_25",
+   "tur": "o‘->o",
+   "soz_idx": 19,
+   "soz_togri": "yo‘q",
+   "soz_buzuq": "yoq",
+   "togri": {
+    "mean_logpost": -0.0853,
+    "path_norm": -0.0757,
+    "margin": 6.8458,
+    "blank_ratio": 0.4444
+   },
+   "buzuq": {
+    "mean_logpost": -0.011,
+    "path_norm": -0.5316,
+    "margin": 6.1859,
+    "blank_ratio": 0.6667
+   },
+   "nc_soz": "mehmonxonalarda",
+   "nc_togri": {
+    "mean_logpost": -0.1001,
+    "path_norm": -0.0358,
+    "margin": 7.1198,
+    "blank_ratio": 0.6939
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.1001,
+    "path_norm": -0.0358,
+    "margin": 7.1198,
+    "blank_ratio": 0.6939
+   }
+  },
+  {
+   "id": "fleurs_25",
+   "tur": "belgi_tushirish",
+   "soz_idx": 16,
+   "soz_togri": "xonada",
+   "soz_buzuq": "xoada",
+   "togri": {
+    "mean_logpost": -0.0066,
+    "path_norm": -0.0022,
+    "margin": 7.4602,
+    "blank_ratio": 0.6842
+   },
+   "buzuq": {
+    "mean_logpost": -0.0077,
+    "path_norm": -0.4646,
+    "margin": 7.0232,
+    "blank_ratio": 0.7368
+   },
+   "nc_soz": "qurishiga",
+   "nc_togri": {
+    "mean_logpost": -0.0019,
+    "path_norm": -0.0021,
+    "margin": 7.9071,
+    "blank_ratio": 0.55
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0019,
+    "path_norm": -0.0021,
+    "margin": 7.9071,
+    "blank_ratio": 0.55
+   }
+  },
+  {
+   "id": "fleurs_26",
+   "tur": "q->k",
+   "soz_idx": 5,
+   "soz_togri": "o‘qqa",
+   "soz_buzuq": "o‘kqa",
+   "togri": {
+    "mean_logpost": -0.0724,
+    "path_norm": -0.041,
+    "margin": 6.1203,
+    "blank_ratio": 0.5385
+   },
+   "buzuq": {
+    "mean_logpost": -1.4905,
+    "path_norm": -0.5864,
+    "margin": 3.8698,
+    "blank_ratio": 0.5385
+   },
+   "nc_soz": "avtomatida",
+   "nc_togri": {
+    "mean_logpost": -0.1409,
+    "path_norm": -0.053,
+    "margin": 5.1341,
+    "blank_ratio": 0.7222
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.1409,
+    "path_norm": -0.053,
+    "margin": 5.1341,
+    "blank_ratio": 0.7222
+   }
+  },
+  {
+   "id": "fleurs_26",
+   "tur": "h->x",
+   "soz_idx": 4,
+   "soz_togri": "sayohatchilarni",
+   "soz_buzuq": "sayoxatchilarni",
+   "togri": {
+    "mean_logpost": -0.0725,
+    "path_norm": -0.0403,
+    "margin": 6.2284,
+    "blank_ratio": 0.6098
+   },
+   "buzuq": {
+    "mean_logpost": -0.3358,
+    "path_norm": -0.1367,
+    "margin": 5.7346,
+    "blank_ratio": 0.6098
+   },
+   "nc_soz": "tutdi",
+   "nc_togri": {
+    "mean_logpost": -0.0229,
+    "path_norm": -0.0085,
+    "margin": 6.5476,
+    "blank_ratio": 0.6875
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0229,
+    "path_norm": -0.0085,
+    "margin": 6.5476,
+    "blank_ratio": 0.6875
+   }
+  },
+  {
+   "id": "fleurs_26",
+   "tur": "o‘->o",
+   "soz_idx": 5,
+   "soz_togri": "o‘qqa",
+   "soz_buzuq": "oqqa",
+   "togri": {
+    "mean_logpost": -0.0724,
+    "path_norm": -0.041,
+    "margin": 6.1203,
+    "blank_ratio": 0.5385
+   },
+   "buzuq": {
+    "mean_logpost": -0.0562,
+    "path_norm": -0.4482,
+    "margin": 5.5142,
+    "blank_ratio": 0.6923
+   },
+   "nc_soz": "rolando",
+   "nc_togri": {
+    "mean_logpost": -0.9155,
+    "path_norm": -0.2819,
+    "margin": 4.4929,
+    "blank_ratio": 0.7308
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.9155,
+    "path_norm": -0.2819,
+    "margin": 4.4929,
+    "blank_ratio": 0.7308
+   }
+  },
+  {
+   "id": "fleurs_26",
+   "tur": "belgi_tushirish",
+   "soz_idx": 1,
+   "soz_togri": "mendoza",
+   "soz_buzuq": "menoza",
+   "togri": {
+    "mean_logpost": -0.0317,
+    "path_norm": -0.1598,
+    "margin": 5.5449,
+    "blank_ratio": 0.8372
+   },
+   "buzuq": {
+    "mean_logpost": -0.036,
+    "path_norm": -0.3209,
+    "margin": 5.4752,
+    "blank_ratio": 0.8605
+   },
+   "nc_soz": "tutdi",
+   "nc_togri": {
+    "mean_logpost": -0.0229,
+    "path_norm": -0.0085,
+    "margin": 6.5476,
+    "blank_ratio": 0.6875
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0229,
+    "path_norm": -0.0085,
+    "margin": 6.5476,
+    "blank_ratio": 0.6875
+   }
+  },
+  {
+   "id": "fleurs_27",
+   "tur": "q->k",
+   "soz_idx": 0,
+   "soz_togri": "an‘anaviyroq",
+   "soz_buzuq": "an‘anaviyrok",
+   "togri": {
+    "mean_logpost": -0.9078,
+    "path_norm": -0.2911,
+    "margin": 5.2797,
+    "blank_ratio": 0.7
+   },
+   "buzuq": {
+    "mean_logpost": -1.3689,
+    "path_norm": -0.4294,
+    "margin": 4.3576,
+    "blank_ratio": 0.7
+   },
+   "nc_soz": "buzish",
+   "nc_togri": {
+    "mean_logpost": -0.0324,
+    "path_norm": -0.0127,
+    "margin": 6.1002,
+    "blank_ratio": 0.625
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0324,
+    "path_norm": -0.0127,
+    "margin": 6.1002,
+    "blank_ratio": 0.625
+   }
+  },
+  {
+   "id": "fleurs_27",
+   "tur": "k->q",
+   "soz_idx": 23,
+   "soz_togri": "o‘tkazadilar",
+   "soz_buzuq": "o‘tqazadilar",
+   "togri": {
+    "mean_logpost": -0.0027,
+    "path_norm": -0.0011,
+    "margin": 8.0585,
+    "blank_ratio": 0.6667
+   },
+   "buzuq": {
+    "mean_logpost": -0.7475,
+    "path_norm": -0.2303,
+    "margin": 6.8523,
+    "blank_ratio": 0.6667
+   },
+   "nc_soz": "bilan",
+   "nc_togri": {
+    "mean_logpost": -0.0016,
+    "path_norm": -0.002,
+    "margin": 8.2213,
+    "blank_ratio": 0.4444
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0016,
+    "path_norm": -0.002,
+    "margin": 8.2213,
+    "blank_ratio": 0.4444
+   }
+  },
+  {
+   "id": "fleurs_27",
+   "tur": "x->h",
+   "soz_idx": 14,
+   "soz_togri": "pasxaning",
+   "soz_buzuq": "pashaning",
+   "togri": {
+    "mean_logpost": -0.0373,
+    "path_norm": -0.0751,
+    "margin": 5.8738,
+    "blank_ratio": 0.6897
+   },
+   "buzuq": {
+    "mean_logpost": -0.344,
+    "path_norm": -0.1703,
+    "margin": 5.2603,
+    "blank_ratio": 0.6897
+   },
+   "nc_soz": "hushyorligini",
+   "nc_togri": {
+    "mean_logpost": -0.1458,
+    "path_norm": -0.0682,
+    "margin": 6.6048,
+    "blank_ratio": 0.6486
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.1458,
+    "path_norm": -0.0682,
+    "margin": 6.6048,
+    "blank_ratio": 0.6486
+   }
+  },
+  {
+   "id": "fleurs_27",
+   "tur": "h->x",
+   "soz_idx": 9,
+   "soz_togri": "uchun",
+   "soz_buzuq": "ucxun",
+   "togri": {
+    "mean_logpost": -0.0503,
+    "path_norm": -0.0485,
+    "margin": 7.9179,
+    "blank_ratio": 0.3
+   },
+   "buzuq": {
+    "mean_logpost": -1.9743,
+    "path_norm": -1.4246,
+    "margin": 4.5929,
+    "blank_ratio": 0.4
+   },
+   "nc_soz": "shanba",
+   "nc_togri": {
+    "mean_logpost": -1.6584,
+    "path_norm": -0.664,
+    "margin": 4.6078,
+    "blank_ratio": 0.6
+   },
+   "nc_buzuq": {
+    "mean_logpost": -1.6584,
+    "path_norm": -0.664,
+    "margin": 4.6078,
+    "blank_ratio": 0.6
+   }
+  },
+  {
+   "id": "fleurs_27",
+   "tur": "o‘->o",
+   "soz_idx": 23,
+   "soz_togri": "o‘tkazadilar",
+   "soz_buzuq": "otkazadilar",
+   "togri": {
+    "mean_logpost": -0.0027,
+    "path_norm": -0.0011,
+    "margin": 8.0585,
+    "blank_ratio": 0.6667
+   },
+   "buzuq": {
+    "mean_logpost": -0.0024,
+    "path_norm": -0.2819,
+    "margin": 7.9804,
+    "blank_ratio": 0.7179
+   },
+   "nc_soz": "masihning",
+   "nc_togri": {
+    "mean_logpost": -1.2652,
+    "path_norm": -0.4641,
+    "margin": 3.1455,
+    "blank_ratio": 0.6296
+   },
+   "nc_buzuq": {
+    "mean_logpost": -1.2652,
+    "path_norm": -0.4641,
+    "margin": 3.1455,
+    "blank_ratio": 0.6296
+   }
+  },
+  {
+   "id": "fleurs_27",
+   "tur": "belgi_tushirish",
+   "soz_idx": 16,
+   "soz_togri": "olish",
+   "soz_buzuq": "oish",
+   "togri": {
+    "mean_logpost": -0.0171,
+    "path_norm": -0.0096,
+    "margin": 6.0138,
+    "blank_ratio": 0.5455
+   },
+   "buzuq": {
+    "mean_logpost": -0.0069,
+    "path_norm": -0.6956,
+    "margin": 6.7889,
+    "blank_ratio": 0.6364
+   },
+   "nc_soz": "pasxaning",
+   "nc_togri": {
+    "mean_logpost": -0.0373,
+    "path_norm": -0.0751,
+    "margin": 5.8738,
+    "blank_ratio": 0.6897
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0373,
+    "path_norm": -0.0751,
+    "margin": 5.8738,
+    "blank_ratio": 0.6897
+   }
+  },
+  {
+   "id": "fleurs_28",
+   "tur": "q->k",
+   "soz_idx": 11,
+   "soz_togri": "yo‘qotishlar",
+   "soz_buzuq": "yo‘kotishlar",
+   "togri": {
+    "mean_logpost": -0.4438,
+    "path_norm": -0.1551,
+    "margin": 7.2135,
+    "blank_ratio": 0.6111
+   },
+   "buzuq": {
+    "mean_logpost": -1.0119,
+    "path_norm": -0.3445,
+    "margin": 6.2396,
+    "blank_ratio": 0.6111
+   },
+   "nc_soz": "yo‘qotganidan",
+   "nc_togri": {
+    "mean_logpost": -0.0176,
+    "path_norm": -0.0164,
+    "margin": 7.768,
+    "blank_ratio": 0.6591
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0176,
+    "path_norm": -0.0164,
+    "margin": 7.768,
+    "blank_ratio": 0.6591
+   }
+  },
+  {
+   "id": "fleurs_28",
+   "tur": "k->q",
+   "soz_idx": 2,
+   "soz_togri": "viketini",
+   "soz_buzuq": "viqetini",
+   "togri": {
+    "mean_logpost": -0.7238,
+    "path_norm": -0.2366,
+    "margin": 4.4204,
+    "blank_ratio": 0.68
+   },
+   "buzuq": {
+    "mean_logpost": -1.7048,
+    "path_norm": -0.5506,
+    "margin": 2.6002,
+    "blank_ratio": 0.68
+   },
+   "nc_soz": "biroq",
+   "nc_togri": {
+    "mean_logpost": -0.0395,
+    "path_norm": -0.0259,
+    "margin": 7.279,
+    "blank_ratio": 0.6
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0395,
+    "path_norm": -0.0259,
+    "margin": 7.279,
+    "blank_ratio": 0.6
+   }
+  },
+  {
+   "id": "fleurs_28",
+   "tur": "h->x",
+   "soz_idx": 11,
+   "soz_togri": "yo‘qotishlar",
+   "soz_buzuq": "yo‘qotisxlar",
+   "togri": {
+    "mean_logpost": -0.4438,
+    "path_norm": -0.1551,
+    "margin": 7.2135,
+    "blank_ratio": 0.6111
+   },
+   "buzuq": {
+    "mean_logpost": -1.215,
+    "path_norm": -0.4326,
+    "margin": 5.7958,
+    "blank_ratio": 0.6389
+   },
+   "nc_soz": "ta",
+   "nc_togri": {
+    "mean_logpost": -0.0062,
+    "path_norm": -0.7625,
+    "margin": 5.8818,
+    "blank_ratio": 0.8182
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0062,
+    "path_norm": -0.7625,
+    "margin": 5.8818,
+    "blank_ratio": 0.8182
+   }
+  },
+  {
+   "id": "fleurs_28",
+   "tur": "o‘->o",
+   "soz_idx": 11,
+   "soz_togri": "yo‘qotishlar",
+   "soz_buzuq": "yoqotishlar",
+   "togri": {
+    "mean_logpost": -0.4438,
+    "path_norm": -0.1551,
+    "margin": 7.2135,
+    "blank_ratio": 0.6111
+   },
+   "buzuq": {
+    "mean_logpost": -0.2363,
+    "path_norm": -0.0814,
+    "margin": 7.4392,
+    "blank_ratio": 0.6389
+   },
+   "nc_soz": "amalga",
+   "nc_togri": {
+    "mean_logpost": -0.001,
+    "path_norm": -0.0012,
+    "margin": 8.5516,
+    "blank_ratio": 0.6471
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.001,
+    "path_norm": -0.0012,
+    "margin": 8.5516,
+    "blank_ratio": 0.6471
+   }
+  },
+  {
+   "id": "fleurs_28",
+   "tur": "belgi_tushirish",
+   "soz_idx": 15,
+   "soz_togri": "ranni",
+   "soz_buzuq": "rani",
+   "togri": {
+    "mean_logpost": -0.0215,
+    "path_norm": -0.0093,
+    "margin": 6.9996,
+    "blank_ratio": 0.6667
+   },
+   "buzuq": {
+    "mean_logpost": -0.0152,
+    "path_norm": -0.182,
+    "margin": 7.0796,
+    "blank_ratio": 0.7222
+   },
+   "nc_soz": "viketini",
+   "nc_togri": {
+    "mean_logpost": -0.7238,
+    "path_norm": -0.2366,
+    "margin": 4.4204,
+    "blank_ratio": 0.68
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.7238,
+    "path_norm": -0.2366,
+    "margin": 4.4204,
+    "blank_ratio": 0.68
+   }
+  },
+  {
+   "id": "fleurs_29",
+   "tur": "k->q",
+   "soz_idx": 6,
+   "soz_togri": "afrikaning",
+   "soz_buzuq": "afriqaning",
+   "togri": {
+    "mean_logpost": -1.0214,
+    "path_norm": -0.3947,
+    "margin": 3.566,
+    "blank_ratio": 0.6154
+   },
+   "buzuq": {
+    "mean_logpost": -1.7133,
+    "path_norm": -0.6608,
+    "margin": 2.3102,
+    "blank_ratio": 0.6154
+   },
+   "nc_soz": "afikaning",
+   "nc_togri": {
+    "mean_logpost": -1.0546,
+    "path_norm": -0.6125,
+    "margin": 4.6636,
+    "blank_ratio": 0.6774
+   },
+   "nc_buzuq": {
+    "mean_logpost": -1.0546,
+    "path_norm": -0.6125,
+    "margin": 4.6636,
+    "blank_ratio": 0.6774
+   }
+  },
+  {
+   "id": "fleurs_29",
+   "tur": "h->x",
+   "soz_idx": 12,
+   "soz_togri": "beruvchi",
+   "soz_buzuq": "beruvcxi",
+   "togri": {
+    "mean_logpost": -0.2893,
+    "path_norm": -0.1364,
+    "margin": 5.4167,
+    "blank_ratio": 0.5294
+   },
+   "buzuq": {
+    "mean_logpost": -1.4681,
+    "path_norm": -0.6911,
+    "margin": 3.1629,
+    "blank_ratio": 0.5294
+   },
+   "nc_soz": "tanlangan",
+   "nc_togri": {
+    "mean_logpost": -0.0272,
+    "path_norm": -0.0104,
+    "margin": 7.0545,
+    "blank_ratio": 0.6296
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0272,
+    "path_norm": -0.0104,
+    "margin": 7.0545,
+    "blank_ratio": 0.6296
+   }
+  },
+  {
+   "id": "fleurs_29",
+   "tur": "o‘->o",
+   "soz_idx": 18,
+   "soz_togri": "bo‘lishi",
+   "soz_buzuq": "bolishi",
+   "togri": {
+    "mean_logpost": -0.0441,
+    "path_norm": -0.048,
+    "margin": 7.9756,
+    "blank_ratio": 0.3889
+   },
+   "buzuq": {
+    "mean_logpost": -0.009,
+    "path_norm": -0.4199,
+    "margin": 7.8487,
+    "blank_ratio": 0.5
+   },
+   "nc_soz": "afikaning",
+   "nc_togri": {
+    "mean_logpost": -1.0546,
+    "path_norm": -0.6125,
+    "margin": 4.6636,
+    "blank_ratio": 0.6774
+   },
+   "nc_buzuq": {
+    "mean_logpost": -1.0546,
+    "path_norm": -0.6125,
+    "margin": 4.6636,
+    "blank_ratio": 0.6774
+   }
+  },
+  {
+   "id": "fleurs_29",
+   "tur": "g‘->g",
+   "soz_idx": 9,
+   "soz_togri": "bog‘lariga",
+   "soz_buzuq": "boglariga",
+   "togri": {
+    "mean_logpost": -0.326,
+    "path_norm": -0.183,
+    "margin": 6.2623,
+    "blank_ratio": 0.5833
+   },
+   "buzuq": {
+    "mean_logpost": -0.3052,
+    "path_norm": -0.1999,
+    "margin": 6.1677,
+    "blank_ratio": 0.625
+   },
+   "nc_soz": "janubiy",
+   "nc_togri": {
+    "mean_logpost": -0.2092,
+    "path_norm": -0.1471,
+    "margin": 4.9649,
+    "blank_ratio": 0.5789
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.2092,
+    "path_norm": -0.1471,
+    "margin": 4.9649,
+    "blank_ratio": 0.5789
+   }
+  },
+  {
+   "id": "fleurs_29",
+   "tur": "belgi_tushirish",
+   "soz_idx": 10,
+   "soz_togri": "kirish",
+   "soz_buzuq": "kiish",
+   "togri": {
+    "mean_logpost": -0.0052,
+    "path_norm": -0.0028,
+    "margin": 7.1826,
+    "blank_ratio": 0.5385
+   },
+   "buzuq": {
+    "mean_logpost": -0.0059,
+    "path_norm": -0.6386,
+    "margin": 7.1707,
+    "blank_ratio": 0.6154
+   },
+   "nc_soz": "mumkin",
+   "nc_togri": {
+    "mean_logpost": -0.0099,
+    "path_norm": -0.0063,
+    "margin": 8.0535,
+    "blank_ratio": 0.6111
+   },
+   "nc_buzuq": {
+    "mean_logpost": -0.0099,
+    "path_norm": -0.0063,
+    "margin": 8.0535,
+    "blank_ratio": 0.6111
+   }
+  }
+ ]
+}

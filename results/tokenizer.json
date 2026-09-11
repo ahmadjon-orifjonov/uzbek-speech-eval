@@ -1,0 +1,185 @@
+{
+ "model": "lucio/xls-r-uzbek-cv8",
+ "vocab_hajmi": 35,
+ "vocab": {
+  "|": 0,
+  "a": 1,
+  "b": 2,
+  "c": 3,
+  "d": 4,
+  "e": 5,
+  "f": 6,
+  "g": 7,
+  "h": 8,
+  "i": 9,
+  "j": 10,
+  "k": 11,
+  "l": 12,
+  "m": 13,
+  "n": 14,
+  "o": 15,
+  "p": 16,
+  "q": 17,
+  "r": 18,
+  "s": 19,
+  "t": 20,
+  "u": 21,
+  "v": 22,
+  "w": 23,
+  "x": 24,
+  "y": 25,
+  "z": 26,
+  "‘": 27,
+  "’": 28,
+  "[UNK]": 29,
+  "[PAD]": 30,
+  "<s>": 31,
+  "</s>": 32,
+  "{'content': '<s>', 'single_word': False, 'lstrip': False, 'rstrip': False, 'normalized': True}": 33,
+  "{'content': '</s>', 'single_word': False, 'lstrip': False, 'rstrip': False, 'normalized': True}": 34
+ },
+ "haqiqiy_belgilar": [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p",
+  "q",
+  "r",
+  "s",
+  "t",
+  "u",
+  "v",
+  "w",
+  "x",
+  "y",
+  "z",
+  "|",
+  "‘",
+  "’"
+ ],
+ "digraf_atomikmi": {
+  "sh": false,
+  "ch": false,
+  "ng": false,
+  "o'": false,
+  "g'": false,
+  "o‘": false,
+  "g‘": false,
+  "o’": false,
+  "g’": false
+ },
+ "apostrof_vocabda": {
+  "U+0027 ASCII '": false,
+  "U+2018 chap  ‘": true,
+  "U+2019 o'ng   ’": true,
+  "U+02BC modifier ʼ": false,
+  "U+00B4 acute ´": false
+ },
+ "sozlar_bolinishi": {
+  "shahar": [
+   "s",
+   "h",
+   "a",
+   "h",
+   "a",
+   "r"
+  ],
+  "chiroq": [
+   "c",
+   "h",
+   "i",
+   "r",
+   "o",
+   "q"
+  ],
+  "tong": [
+   "t",
+   "o",
+   "n",
+   "g"
+  ],
+  "o'zbek": [
+   "o",
+   "[UNK]",
+   "z",
+   "b",
+   "e",
+   "k"
+  ],
+  "g'alaba": [
+   "g",
+   "[UNK]",
+   "a",
+   "l",
+   "a",
+   "b",
+   "a"
+  ],
+  "qishloq": [
+   "q",
+   "i",
+   "s",
+   "h",
+   "l",
+   "o",
+   "q"
+  ],
+  "yaxshi": [
+   "y",
+   "a",
+   "x",
+   "s",
+   "h",
+   "i"
+  ],
+  "hisob": [
+   "h",
+   "i",
+   "s",
+   "o",
+   "b"
+  ],
+  "jurnal": [
+   "j",
+   "u",
+   "r",
+   "n",
+   "a",
+   "l"
+  ],
+  "jiyan": [
+   "j",
+   "i",
+   "y",
+   "a",
+   "n"
+  ],
+  "og'zi": [
+   "o",
+   "g",
+   "[UNK]",
+   "z",
+   "i"
+  ],
+  "shahri": [
+   "s",
+   "h",
+   "a",
+   "h",
+   "r",
+   "i"
+  ]
+ }
+}
