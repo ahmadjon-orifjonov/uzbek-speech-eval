@@ -126,6 +126,7 @@ Source comments are in Uzbek; documentation is in English.
 ## Contact
 
 Built by **Axmadjon Orifjonov** — Tashkent, Uzbekistan.
+Ahmadjonorifjonov57@gmail.com · [github.com/ahmadjon-orifjonov](https://github.com/ahmadjon-orifjonov)
 Available for contract work on Uzbek speech evaluation, data pipelines, and
 linguistic QA. AI coding tools are part of my workflow and I state that openly;
 every number here is reproducible from the scripts in this repository.
