@@ -46,6 +46,21 @@ the intervals far too narrow.
 | `margin` | overall | 0.665 | [0.653, 0.678] |
 | `blank_ratio` | overall | 0.419 | [0.412, 0.425] |
 
+### Case-by-case behaviour (40 recordings, 80 cases)
+
+Aggregate numbers hide how a system fails, so every case is listed in
+[`results/examples.md`](results/examples.md):
+
+| condition | outcome | count |
+|---|---|---:|
+| corrupted reference text | **error type correctly identified** | **40 / 40** |
+| clean reference text | stayed silent (desired) | 37 / 40 |
+| clean reference text | **false alarm** | **3 / 40** |
+
+The three false alarms (`k → q` twice, `h → x` once) are listed by recording
+id. They are the honest cost of the current thresholds: the forced-choice test
+clears its margin on a word that was in fact read correctly.
+
 | Other measurements | Result | Script |
 |---|---|---|
 | Negative control (untouched words) | **1047/1047 with Δ = 0.000000** | `eval_auc.py` |

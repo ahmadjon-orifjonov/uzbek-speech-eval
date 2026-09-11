@@ -1,0 +1,649 @@
+{
+ "summary": {
+  "silent": 37,
+  "detected": 40,
+  "false_alarm": 3
+ },
+ "cases": [
+  {
+   "id": "fleurs_000",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_000",
+   "condition": "corrupted",
+   "text_change": "boshqa → boshka",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_001",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_001",
+   "condition": "corrupted",
+   "text_change": "aloqa → aloka",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_002",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_002",
+   "condition": "corrupted",
+   "text_change": "qanday → kanday",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_003",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_003",
+   "condition": "corrupted",
+   "text_change": "keng → qeng",
+   "expected": "q → k",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_004",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_004",
+   "condition": "corrupted",
+   "text_change": "qanday → kanday",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_005",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_005",
+   "condition": "corrupted",
+   "text_change": "boshqa → boshka",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_006",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_006",
+   "condition": "corrupted",
+   "text_change": "ittifoqchilar → ittifokchilar",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_007",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_007",
+   "condition": "corrupted",
+   "text_change": "aqsh → aksh",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_008",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_008",
+   "condition": "corrupted",
+   "text_change": "qotishmalar → kotishmalar",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_009",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_009",
+   "condition": "corrupted",
+   "text_change": "qo‘ng‘iz → ko‘ng‘iz",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_010",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_010",
+   "condition": "corrupted",
+   "text_change": "qadar → kadar",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_011",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "false_alarm",
+   "note": "k → q"
+  },
+  {
+   "id": "fleurs_011",
+   "condition": "corrupted",
+   "text_change": "ortiq → ortik",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_012",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_012",
+   "condition": "corrupted",
+   "text_change": "orqasida → orkasida",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_013",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_013",
+   "condition": "corrupted",
+   "text_change": "sotiq → sotik",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_014",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_014",
+   "condition": "corrupted",
+   "text_change": "to‘liq → to‘lik",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_015",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_015",
+   "condition": "corrupted",
+   "text_change": "mustaqillik → mustakillik",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_016",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_016",
+   "condition": "corrupted",
+   "text_change": "rekombinatsiya → reqombinatsiya",
+   "expected": "q → k",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_017",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_017",
+   "condition": "corrupted",
+   "text_change": "juftliklar → juftliqlar",
+   "expected": "q → k",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_018",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "false_alarm",
+   "note": "k → q"
+  },
+  {
+   "id": "fleurs_018",
+   "condition": "corrupted",
+   "text_change": "boshqa → boshka",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_019",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_019",
+   "condition": "corrupted",
+   "text_change": "xalq → xalk",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_020",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_020",
+   "condition": "corrupted",
+   "text_change": "tuproq → tuprok",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_021",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_021",
+   "condition": "corrupted",
+   "text_change": "qiling → kiling",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_022",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_022",
+   "condition": "corrupted",
+   "text_change": "ortiq → ortik",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_023",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_023",
+   "condition": "corrupted",
+   "text_change": "mintaqaviy → mintakaviy",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_024",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_024",
+   "condition": "corrupted",
+   "text_change": "qurilganidan → kurilganidan",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_025",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_025",
+   "condition": "corrupted",
+   "text_change": "qurishiga → kurishiga",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_026",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_026",
+   "condition": "corrupted",
+   "text_change": "o‘qqa → o‘kqa",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_027",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "false_alarm",
+   "note": "h → x"
+  },
+  {
+   "id": "fleurs_027",
+   "condition": "corrupted",
+   "text_change": "an‘anaviyroq → an‘anaviyrok",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_028",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_028",
+   "condition": "corrupted",
+   "text_change": "biroq → birok",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_029",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_029",
+   "condition": "corrupted",
+   "text_change": "afikaning → afiqaning",
+   "expected": "q → k",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_030",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_030",
+   "condition": "corrupted",
+   "text_change": "qilamiz → kilamiz",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_031",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_031",
+   "condition": "corrupted",
+   "text_change": "qushlarga → kushlarga",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_032",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_032",
+   "condition": "corrupted",
+   "text_change": "to‘lqinlarni → to‘lkinlarni",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_033",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_033",
+   "condition": "corrupted",
+   "text_change": "boshqa → boshka",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_034",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_034",
+   "condition": "corrupted",
+   "text_change": "boshqa → boshka",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_035",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_035",
+   "condition": "corrupted",
+   "text_change": "tashqari → tashkari",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_036",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_036",
+   "condition": "corrupted",
+   "text_change": "yuqumli → yukumli",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_037",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_037",
+   "condition": "corrupted",
+   "text_change": "qumli → kumli",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_038",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_038",
+   "condition": "corrupted",
+   "text_change": "issiq → issik",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  },
+  {
+   "id": "fleurs_039",
+   "condition": "clean",
+   "text_change": "—",
+   "expected": "silent",
+   "outcome": "silent",
+   "note": ""
+  },
+  {
+   "id": "fleurs_039",
+   "condition": "corrupted",
+   "text_change": "kamroq → kamrok",
+   "expected": "k → q",
+   "outcome": "detected",
+   "note": ""
+  }
+ ]
+}
