@@ -21,7 +21,11 @@ OUT = ROOT / "results" / "samples.json"
 AUDIO_DIR.mkdir(parents=True, exist_ok=True)
 OUT.parent.mkdir(parents=True, exist_ok=True)
 
+# Namuna soni: `python scripts/prepare_data.py --n 200`
 N = 30
+for _i, _a in enumerate(sys.argv):
+    if _a == "--n" and _i + 1 < len(sys.argv):
+        N = int(sys.argv[_i + 1])
 TARGET_SR = 16000
 
 import importlib.util
@@ -63,10 +67,10 @@ for batch in pf.iter_batches(batch_size=32):
         dur = len(arr) / sr
         if dur < 2 or dur > 20:          # juda qisqa/uzunlarini olmaymiz
             continue
-        yol = AUDIO_DIR / f"fleurs_{olindi:02d}.wav"
+        yol = AUDIO_DIR / f"fleurs_{olindi:03d}.wav"
         sf.write(str(yol), arr, sr)
         yozuvlar.append({
-            "id": f"fleurs_{olindi:02d}",
+            "id": f"fleurs_{olindi:03d}",
             "manba": "google/fleurs uz_uz test",
             "fayl": str(yol),
             "sr": sr,

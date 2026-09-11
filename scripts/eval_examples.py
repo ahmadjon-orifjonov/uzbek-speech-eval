@@ -1,0 +1,158 @@
+# -*- coding: utf-8 -*-
+"""
+CASE-BY-CASE BEHAVIOUR TABLE — including the failures.
+
+Aggregate numbers hide how a system fails. This script runs the full
+screening pipeline over two conditions per recording and writes every
+individual outcome to results/examples.md:
+
+  clean      the reference text is correct -> the system should stay silent
+  corrupted  one grapheme in one word is swapped (q<->k, x<->h), the audio
+             is untouched -> the system should name that error type
+
+Outcome labels:
+
+  detected      correct error type reported on the corrupted word
+  wrong_type    an error was reported, but not the right one
+  wrong_word    right type, wrong word
+  missed        corrupted text, nothing reported
+  false_alarm   clean text, but an error type was reported
+  silent        clean text, nothing reported  (the desired case)
+  abstain       the gate refused to produce a result
+
+IMPORTANT LIMIT: the audio is never altered. This measures the screening
+logic on a text-level manipulation, not a system's ability to detect a
+real learner's mispronunciation. That still requires an annotated corpus
+of actual errors.
+
+    python scripts/eval_examples.py            # 30 recordings
+    python scripts/eval_examples.py --n 60
+"""
+import sys
+import io
+import json
+import time
+from pathlib import Path
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "src"))
+
+IN = ROOT / "results" / "samples.json"
+OUT_MD = ROOT / "results" / "examples.md"
+OUT_JSON = ROOT / "results" / "examples.json"
+
+# (grapheme in text, replacement, error type the system should report)
+SWAPS = [("q", "k", "k → q"), ("k", "q", "q → k"), ("x", "h", "h → x"), ("h", "x", "x → h")]
+
+N = 30
+for _i, _a in enumerate(sys.argv):
+    if _a == "--n" and _i + 1 < len(sys.argv):
+        N = int(sys.argv[_i + 1])
+
+
+def corrupt(words):
+    """Swap one grapheme in one word. Digraphs sh/ch/ng are left alone."""
+    for gi, (src, dst, kutilgan) in enumerate(SWAPS):
+        for i, w in enumerate(words):
+            if len(w) < 4:
+                continue
+            for k, ch in enumerate(w):
+                if ch != src:
+                    continue
+                if src == "h" and k > 0 and w[k - 1] in "sc":
+                    continue                       # sh / ch
+                if src == "g" and k + 1 < len(w) and w[k + 1] == "h":
+                    continue
+                yangi = w[:k] + dst + w[k + 1:]
+                if yangi != w:
+                    return i, w, yangi, kutilgan
+    return None
+
+
+def outcome(r, idx=None, kutilgan=None):
+    if r.get("abstain"):
+        return "abstain", r.get("sabab", "")
+    turlar = r.get("turlar", {})
+    if kutilgan is None:                            # clean condition
+        return ("silent", "") if not turlar else ("false_alarm", ", ".join(turlar))
+    if not turlar:
+        return "missed", ""
+    topilgan = [(i, w) for i, w in enumerate(r["sozlar"]) if w.get("xato_turi")]
+    for i, w in topilgan:
+        if w["xato_turi"] == kutilgan:
+            return ("detected", "") if i == idx else ("wrong_word", "at '{}'".format(w["soz"]))
+    return "wrong_type", ", ".join(sorted(turlar))
+
+
+def main():
+    from screening import Demo
+    import soundfile as sf
+
+    yozuvlar = json.loads(IN.read_text(encoding="utf-8"))[:N]
+    print("Model yuklanmoqda...")
+    demo = Demo()
+    qatorlar = []
+    t0 = time.time()
+
+    for rec in yozuvlar:
+        f = ROOT / rec["fayl"] if not Path(rec["fayl"]).is_absolute() else Path(rec["fayl"])
+        if not f.exists():
+            print("  ! audio yo'q:", f)
+            continue
+        wav, _ = sf.read(str(f), dtype="float32")
+        if wav.ndim > 1:
+            wav = wav[:, 0]
+        etalon = rec["etalon_norm"]
+        sozlar = etalon.split()
+
+        r = demo.tahlil(wav, etalon)
+        nat, izoh = outcome(r)
+        qatorlar.append({"id": rec["id"], "condition": "clean", "text_change": "—",
+                         "expected": "silent", "outcome": nat, "note": izoh})
+        print("  {:<12} clean      {:<12} {}".format(rec["id"], nat, izoh))
+
+        buz = corrupt(sozlar)
+        if buz:
+            i, eski, yangi, kutilgan = buz
+            yangi_sozlar = list(sozlar)
+            yangi_sozlar[i] = yangi
+            r2 = demo.tahlil(wav, " ".join(yangi_sozlar))
+            nat2, izoh2 = outcome(r2, i, kutilgan)
+            qatorlar.append({"id": rec["id"], "condition": "corrupted",
+                             "text_change": "{} → {}".format(eski, yangi),
+                             "expected": kutilgan, "outcome": nat2, "note": izoh2})
+            print("  {:<12} corrupted  {:<12} {} -> {}  {}".format(
+                rec["id"], nat2, eski, yangi, izoh2))
+
+    dt = time.time() - t0
+    sanoq = {}
+    for q in qatorlar:
+        sanoq[q["outcome"]] = sanoq.get(q["outcome"], 0) + 1
+
+    satrlar = ["# Case-by-case behaviour", "",
+               "Generated by `scripts/eval_examples.py` — {} cases over {} recordings, "
+               "{:.0f} s.".format(len(qatorlar), len(yozuvlar), dt), "",
+               "**The audio is never altered.** In the `corrupted` condition one grapheme",
+               "in the reference *text* is swapped, so this measures the screening logic,",
+               "not detection of a real learner's mispronunciation.", "",
+               "## Summary", "", "| outcome | count |", "|---|---:|"]
+    for k in sorted(sanoq, key=lambda x: -sanoq[x]):
+        satrlar.append("| {} | {} |".format(k, sanoq[k]))
+    satrlar += ["", "## Every case", "",
+                "| id | condition | text change | expected | outcome | note |",
+                "|---|---|---|---|---|---|"]
+    for q in qatorlar:
+        satrlar.append("| {} | {} | {} | {} | **{}** | {} |".format(
+            q["id"], q["condition"], q["text_change"], q["expected"], q["outcome"], q["note"]))
+    OUT_MD.write_text("\n".join(satrlar) + "\n", encoding="utf-8", newline="\n")
+    OUT_JSON.write_text(json.dumps({"summary": sanoq, "cases": qatorlar},
+                                   ensure_ascii=False, indent=1),
+                        encoding="utf-8", newline="\n")
+    print("\nXulosa:", sanoq)
+    print("->", OUT_MD)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
